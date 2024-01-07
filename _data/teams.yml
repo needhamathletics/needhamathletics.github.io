@@ -1,3 +1,12 @@
+boys-basketball-freshman:
+  sport: boys-basketball
+  name: Boy's Freshman Basketball
+boys-basketball-junior-varsity:
+  sport: boys-basketball
+  name: Boy's Junior Varsity Basketball
+boys-basketball-varsity:
+  sport: boys-basketball
+  name: Boy's Varsity Basketball
 boys-swim-and-dive-varsity:
   sport: boys-swim-and-dive
   name: Boy's Varsity Swim & Dive

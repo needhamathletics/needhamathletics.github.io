@@ -10,7 +10,12 @@ boys-basketball:
   season: winter
   title: Boy's Basketball
   name: Basketball
+  schedule: true
   link: /high-school/sports/boys-basketball
+  teams:
+    - boys-basketball-freshman
+    - boys-basketball-junior-varsity
+    - boys-basketball-varsity
 boys-cross-country:
   category: boys
   season: fall

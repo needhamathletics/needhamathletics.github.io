@@ -1,7 +1,7 @@
 boys-baseball:
   category: boys
   season: spring
-  title: Boy's Basketball
+  title: Boy's Baseball
   name: Baseball
   link: /high-school/sports/boys-baseball
   instagram: https://www.instagram.com/needhamvarsitybaseball/
@@ -37,7 +37,7 @@ boys-indoor-track-and-field:
   season: winter
   title: Boy's Indoor Track & Field
   name: Indoor Track & Field
-  link: /high-school/sports/boys-indoor-track
+  link: /high-school/sports/boys-indoor-track-and-field
   instagram: https://www.instagram.com/needhamsprints/
 boys-lacrosse:
   category: boys
@@ -51,7 +51,7 @@ boys-outdoor-track-and-field:
   season: spring
   title: Boy's Outdoor Track & Field
   name: Outdoor Track & Field
-  link: /high-school/sports/boys-outdoor-track
+  link: /high-school/sports/boys-outdoor-track-and-field
   instagram: https://www.instagram.com/needhamsprints/
 boys-rugby:
   category: boys

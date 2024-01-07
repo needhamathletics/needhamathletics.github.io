@@ -2,11 +2,11 @@
   <li class="navigation-row">
     <a class="sport-link" href="{{ sport.link }}">{{ sport.name }}</a>
     {% if sport.season == "fall" %}
-      <a class="icon fa-solid fa-leaf"></a>
+      <span class="icon fa-solid fa-leaf"></span>
     {% elsif sport.season == "winter" %}
-      <a class="icon fa-regular fa-snowflake"></a>
+      <span class="icon fa-regular fa-snowflake"></span>
     {% elsif sport.season == "spring" %}
-      <a class="icon fa-regular fa-sun"></a>
+      <span class="icon fa-regular fa-sun"></span>
     {% endif %}
     <div class="sport-other-links">
       <a href="{{ sport.link }}#schedule" {% unless sport.schedule %} style="visibility: hidden;" {% endunless %}>

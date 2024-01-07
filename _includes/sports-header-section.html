@@ -9,7 +9,7 @@
       <a class="icon fa-regular fa-sun"></a>
     {% endif %}
     <div class="sport-other-links">
-      <a href="{{ sport.link }}#schedule">
+      <a href="{{ sport.link }}#schedule" {% unless sport.schedule %} style="visibility: hidden;" {% endunless %}>
         Schedule
       </a>
     </div>

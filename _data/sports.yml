@@ -1,0 +1,295 @@
+boys-baseball:
+  category: boys
+  season: spring
+  title: Boy's Basketball
+  name: Baseball
+  link: /high-school/sports/boys-baseball
+boys-basketball:
+  category: boys
+  season: winter
+  title: Boy's Basketball
+  name: Basketball
+  link: /high-school/sports/boys-basketball
+  instagram: https://www.instagram.com/needhamhighschoolsoccer/
+  twitter: https://twitter.com/NdhmRcktsSoccer
+boys-cross-country:
+  category: boys
+  season: fall
+  title: Boy's Cross Country
+  name: Cross Country
+  link: /high-school/sports/boys-cross-country
+boys-golf:
+  category: boys
+  season: fall
+  title: Boy's Golf
+  name: Golf
+  link: /high-school/sports/boys-golf
+boys-ice-hockey:
+  category: boys
+  season: winter
+  title: Boy's Ice Hockey
+  name: Ice Hockey
+  link: /high-school/sports/boys-ice-hockey
+boys-indoor-track-and-field:
+  category: boys
+  season: winter
+  title: Boy's Indoor Track & Field
+  name: Indoor Track & Field
+  link: /high-school/sports/boys-indoor-track
+boys-lacrosse:
+  category: boys
+  season: spring
+  title: Boy's Lacrosse
+  name: Lacrosse
+  link: /high-school/sports/boys-lacrosse
+boys-outdoor-track-and-field:
+  category: boys
+  season: spring
+  title: Boy's Outdoor Track & Field
+  name: Outdoor Track & Field
+  link: /high-school/sports/boys-outdoor-track
+boys-rugby:
+  category: boys
+  season: spring
+  title: Boy's Rugby
+  name: Rugby
+  link: /high-school/sports/boys-rugby
+boys-soccer:
+  category: boys
+  season: fall
+  title: Boy's Soccer
+  name: Soccer
+  link: /high-school/sports/boys-soccer
+boys-swim-and-dive:
+  category: boys
+  season: winter
+  title: Boy's Swim & Dive
+  name: Swim & Dive
+  link: /high-school/sports/boys-swim-and-dive
+  teams:
+    - boys-swim-and-dive-varsity
+boys-tennis:
+  category: boys
+  season: spring
+  title: Boy's Tennis
+  name: Tennis
+  link: /high-school/sports/boys-tennis
+boys-volleyball:
+  category: boys
+  season: spring
+  title: Boy's Volleyball
+  name: Volleyball
+  link: /high-school/sports/boys-volleyball
+girls-basketball:
+  category: girls
+  season: winter
+  title: Girl's Basketball
+  name: Basketball
+  link: /high-school/sports/girls-basketball
+girls-cross-country:
+  category: girls
+  season: fall
+  title: Girl's Cross Country
+  name: Cross Country
+  link: /high-school/sports/girls-cross-country
+girls-golf:
+  category: girls
+  season: spring
+  title: Girl's Golf
+  name: Golf
+  link: /high-school/sports/girls-golf
+girls-ice-hockey:
+  category: girls
+  season: winter
+  title: Girl's Ice Hockey
+  name: Ice Hockey
+  link: /high-school/sports/girls-ice-hockey
+girls-indoor-track-and-field:
+  category: girls
+  season: winter
+  title: Girl's Indoor Track & Field
+  name: Indoor Track & Field
+  link: /high-school/sports/girls-indoor-track
+girls-lacrosse:
+  category: girls
+  season: spring
+  title: Girl's Lacrosse
+  name: Lacrosse
+  link: /high-school/sports/girls-lacrosse
+girls-outdoor-track-and-field:
+  category: girls
+  season: spring
+  title: Girl's Outdoor Track & Field
+  name: Outdoor Track & Field
+  link: /high-school/sports/girls-outdoor-track
+girls-rugby:
+  category: girls
+  season: spring
+  title: Girl's Rugby
+  name: Rugby
+  link: /high-school/sports/girls-rugby
+girls-softball:
+  category: girls
+  season: spring
+  title: Girl's Softball
+  name: Softball
+  link: /high-school/sports/girls-baseball
+girls-soccer:
+  category: girls
+  season: fall
+  title: Girl's Soccer
+  name: Soccer
+  link: /high-school/sports/girls-soccer
+girls-swim-and-dive:
+  category: girls
+  season: fall
+  title: Girl's Swim & Dive
+  name: Swim & Dive
+  link: /high-school/sports/girls-swim-and-dive
+  instagram: https://www.instagram.com/needhamgirlsswive/
+  teams:
+    - girls-swim-and-dive-varsity
+girls-tennis:
+  category: girls
+  season: spring
+  title: Girl's Tennis
+  name: Tennis
+  link: /high-school/sports/girls-tennis
+girls-volleyball:
+  category: girls
+  season: fall
+  title: Girl's Volleyball
+  name: Volleyball
+  link: /high-school/sports/girls-volleyball
+coed-alpine-skiing:
+  category: coed
+  season: winter
+  title: Coed Alpine Skiing
+  name: Alpine Skiing
+  link: /high-school/sports/coed-alpine-skiing
+coed-cheerleading-fall:
+  category: coed
+  season: fall
+  title: Coed Cheerleading (Fall)
+  name: Cheerleading (Fall)
+  link: /high-school/sports/coed-cheerleading-fall
+coed-cheerleading-winter:
+  category: coed
+  season: winter
+  title: Coed Cheerleading (Winter)
+  name: Cheerleading (Winter)
+  link: /high-school/sports/coed-cheerleading-winter
+coed-dance-fall:
+  category: coed
+  season: fall
+  title: Coed Dance (Fall)
+  name: Dance (Fall)
+  link: /high-school/sports/coed-dance-fall
+coed-dance-winter:
+  category: coed
+  season: winter
+  title: Coed Dance (Winter)
+  name: Dance (Winter)
+  link: /high-school/sports/coed-dance-winter
+coed-field-hockey:
+  category: coed
+  season: fall
+  title: Coed Field Hockey
+  name: Field Hockey
+  link: /high-school/sports/coed-field-hockey
+coed-football:
+  category: coed
+  season: fall
+  title: Coed Football
+  name: Football
+  link: /high-school/sports/coed-football
+coed-gymnastics:
+  category: coed
+  season: winter
+  title: Coed Gymnastics
+  name: Gymnastics
+  link: /high-school/sports/coed-gymnastics
+coed-sailing:
+  category: coed
+  season: spring
+  title: Coed Sailing
+  name: Sailing
+  link: /high-school/sports/coed-sailing
+coed-unified-basketball:
+  category: coed
+  season: fall
+  title: Coed Unified Basketball
+  name: Unified Basketball
+  link: /high-school/sports/coed-unified-basketball
+coed-unified-track-and-field:
+  category: coed
+  season: spring
+  title: Coed Unified Track & Field & Field
+  name: Unified Track & Field & Field
+  link: /high-school/sports/coed-unified-track-and-field
+coed-wrestling:
+  category: coed
+  season: winter
+  title: Coed Wrestling
+  name: Wrestling
+  link: /high-school/sports/coed-wrestling
+club-cheerleading-fall:
+  category: club
+  season: fall
+  title: Club Cheerleading (Fall)
+  name: Cheerleading (Fall)
+  link: /high-school/sports/club-cheerleading-fall
+club-cheerleading-winter:
+  season: winter
+  category: club
+  title: Club Cheerleading (Winter)
+  name: Cheerleading (Winter)
+  link: /high-school/sports/club-cheerleading-winter
+club-dance-fall:
+  category: club
+  season: fall
+  title: Club Dance (Fall)
+  name: Dance (Fall)
+  link: /high-school/sports/club-dance-fall
+club-dance-winter:
+  category: club
+  season: winter
+  title: Club Dance (Winter)
+  name: Dance (Winter)
+  link: /high-school/sports/club-dance-winter
+club-fencing:
+  category: club
+  season: winter
+  title: Club Fencing
+  name: Fencing
+  link: /high-school/sports/club-fencing
+club-flag-football-girls:
+  category: club
+  season: spring
+  title: Club Flag Football (Girls)
+  name: Flag Football (Girls)
+  link: /high-school/sports/club-flag-football-girls
+club-sailing:
+  category: club
+  season: fall
+  title: Club Sailing
+  name: Sailing
+  link: /high-school/sports/club-sailing
+club-squash:
+  category: club
+  season: winter
+  title: Club Squash
+  name: Squash
+  link: /high-school/sports/club-squash
+club-ultimate-frisbee-boys:
+  category: club
+  season: spring
+  title: Club Ultimate Frisbee (Boys)
+  name: Ultimate Frisbee (Boys)
+  link: /high-school/sports/club-ultimate-frisbee-boys
+club-ultimate-frisbee-girls:
+  category: club
+  season: spring
+  title: Club Ultimate Frisbee (Girls)
+  name: Ultimate Frisbee (Girls)
+  link: /high-school/sports/club-ultimate-frisbee-girls

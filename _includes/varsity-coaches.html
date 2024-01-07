@@ -1,0 +1,24 @@
+<div class="overflow-x-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th>Sport</th>
+        <th>Name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for coach in site.data.staff.varsity-coaches %}
+        {% assign sport = site.data.sports[coach.sport] %}
+        {% unless sport.season == include.season %}
+          {% continue %}
+        {% endunless %}
+        <tr>
+          <td>{{ sport.title }}</td>
+          <td>{{ coach.name }}</td>
+          <td>{{ coach.email }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

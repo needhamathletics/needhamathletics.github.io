@@ -1,0 +1,80 @@
+<h1 class="hide">Needham High School Athletics</h1>
+<div class="header">Needham High School Athletics</div>
+<nav class="main-navigation">
+  <div class="navigation-bar max-width">
+    <h2 class="hide">Main Navigation Menu</h1>
+    <div class="navigation-logo">
+      <a class="navigation-logo-link" href="/">
+        <img src="/assets/media/nhs.png" alt="Needham High School logo">
+      </a>
+    </div>
+    <div class="navigation-main">
+      <div class="navigation-desktop">
+        <ul class="navigation-level-1">
+          <li class="navigation-item">
+            <div class="navigation-url">
+              <a>Sports</a>
+            </div>
+            <div class="navigation-level-2">
+              <div class="navigation-level-2-inner">
+                {% assign sports = site.data.sports %}
+                <ul class="navigation-column">
+                  <li class="navigation-separator">Boy's Sports</li>
+                  {% assign boys-sports = sports | where: "category", "boys" %}
+                  {% include sports-header-section.html
+                    sports = boys-sports %}
+                  <li class="navigation-separator">Coed Sports</li>
+                  {% assign coed-sports = sports | where: "category", "coed" %}
+                  {% include sports-header-section.html
+                    sports = coed-sports %}
+                </ul>
+                <ul class="navigation-column">
+                  <li class="navigation-separator">Girls's Sports</li>
+                  {% assign girls-sports = sports | where: "category", "girls" %}
+                  {% include sports-header-section.html
+                    sports = girls-sports %}
+                  <li class="navigation-separator">Club Sports</li>
+                  {% assign club-sports = sports | where: "category", "club" %}
+                  {% include sports-header-section.html
+                    sports = club-sports %}
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="navigation-item">
+            <div class="navigation-url">
+              <a>Inside Athletics</a>
+            </div>
+            <div class="navigation-level-2">
+              <div class="navigation-level-2-inner">
+                <ul class="navigation-column">
+                  <a href="/high-school/sports">
+                    <li class="navigation-row">Sports</li>
+                  </a>
+                  <a href="/high-school/coaching-staff">
+                    <li class="navigation-row">Coaching Staff</li>
+                  </a>
+                  <a href="/high-school/rocket-review">
+                    <li class="navigation-row">Rocket Review</li>
+                  </a>
+                  <a href="/high-school/athletic-training">
+                    <li class="navigation-row">Athletic Training</li>
+                  </a>
+                  <a href="/high-school/for-parents">
+                    <li class="navigation-row">For Parents</li>
+                  </a>
+                  <a href="/high-school/for-students">
+                    <li class="navigation-row">For Students</li>
+                  </a>
+                  <a href="/high-school/facilities">
+                    <li class="navigation-row">Facilities</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include sport-header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper max-width">
+        <div id="schedule">
+          <h3>Schedule</h3>
+          <hr>
+
+          {% assign teams = site.data.teams %}
+          {% assign sport-teams = site.data.sports[page.sport].teams %}
+          {% assign schedule = site.data.schedules["2023-2024"] %}
+          {% assign events = "" | split: "," %}
+          {% for team in sport-teams %}
+            {% assign team-events = schedule | where: "team", team %}
+            {% assign events = events | concat: team-events %}
+          {% endfor %}
+          {% assign events = events | sort: "time" | sort: "date" %}
+          <table>
+            <thead>
+              <tr>
+                <th class="date">Date</th>
+                <th class="time">Time</th>
+                <th class="home-away">H/A</th>
+                <th class="opponents-event">Opponent(s) / Event</th>
+                <th class="site">Site</th>
+                <th class="subsite">Subsite</th>
+                <th class="result">Result</th>
+                <th class="score">Score</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for event in events %}
+                <tr>
+                  <td class="date">{{ event.date }}</td>
+                  <td class="time">{{ event.time }}</td>
+                  <td class="home-away">{% if event.home-away == "H" %}Home{% elsif event.home-away == "A" %}Away{% endif %}</td>
+                  <td class="opponents-event">{{ event.event }}</td>
+                  <td class="site">{{ event.site }}</td>
+                  <td class="subsite">{{ event.subsite }}</td>
+                  <td class="result">{% if event.result == "W" %}Win{% elsif event.result == "L" %}Loss{% elsif event.result == "T" %}Tie{% else %}{{ event.result }}{% endif %}</td>
+                  <td class="score">{{ event.score | replace: "-", "&nbsp;&ndash;&nbsp;"}}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

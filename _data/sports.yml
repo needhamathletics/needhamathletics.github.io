@@ -1,81 +1,103 @@
 boys-baseball:
   category: boys
-  season: spring
+  seasons: spring
   title: Boy's Baseball
   name: Baseball
   link: /high-school/sports/boys-baseball
   instagram: https://www.instagram.com/needhamvarsitybaseball/
 boys-basketball:
   category: boys
-  season: winter
+  seasons: winter
   title: Boy's Basketball
   name: Basketball
-  schedule: true
   link: /high-school/sports/boys-basketball
+  schedule: true
   teams:
-    - boys-basketball-freshman
-    - boys-basketball-junior-varsity
     - boys-basketball-varsity
+    - boys-basketball-junior-varsity
+    - boys-basketball-freshman
 boys-cross-country:
   category: boys
-  season: fall
+  seasons: fall
   title: Boy's Cross Country
   name: Cross Country
   link: /high-school/sports/boys-cross-country
+  schedule: true
   instagram: https://www.instagram.com/needhamdistance/
+  teams:
+    - boys-cross-country-varsity
 boys-golf:
   category: boys
-  season: fall
+  seasons: fall
   title: Boy's Golf
   name: Golf
   link: /high-school/sports/boys-golf
+  schedule: true
   instagram: https://www.instagram.com/needhamvarsitygolf/
+  teams:
+    - boys-golf-varsity
 boys-ice-hockey:
   category: boys
-  season: winter
+  seasons: winter
   title: Boy's Ice Hockey
   name: Ice Hockey
   link: /high-school/sports/boys-ice-hockey
+  schedule: true
   instagram: https://www.instagram.com/needham_boys_hockey/
+  teams:
+    - boys-ice-hockey-varsity
+    - boys-ice-hockey-junior-varsity
+    - boys-ice-hockey-sophomores
 boys-indoor-track-and-field:
   category: boys
-  season: winter
+  seasons: winter
   title: Boy's Indoor Track & Field
   name: Indoor Track & Field
   link: /high-school/sports/boys-indoor-track-and-field
+  schedule: true
   instagram: https://www.instagram.com/needhamsprints/
+  teams:
+    - boys-indoor-track-and-field-varsity
+    - boys-indoor-track-and-field-junior-varsity
 boys-lacrosse:
   category: boys
-  season: spring
+  seasons: spring
   title: Boy's Lacrosse
   name: Lacrosse
   link: /high-school/sports/boys-lacrosse
   instagram: https://www.instagram.com/needhamlax/
 boys-outdoor-track-and-field:
   category: boys
-  season: spring
+  seasons: spring
   title: Boy's Outdoor Track & Field
   name: Outdoor Track & Field
   link: /high-school/sports/boys-outdoor-track-and-field
   instagram: https://www.instagram.com/needhamsprints/
 boys-rugby:
   category: boys
-  season: spring
+  seasons: spring
   title: Boy's Rugby
   name: Rugby
   link: /high-school/sports/boys-rugby
   instagram: https://www.instagram.com/needhamhsrugby/
 boys-soccer:
   category: boys
-  season: fall
+  seasons: fall
   title: Boy's Soccer
   name: Soccer
   link: /high-school/sports/boys-soccer
+  schedule: true
   instagram: https://www.instagram.com/needhamhighschoolsoccer/
   twitter: https://twitter.com/NdhmRcktsSoccer
+  teams:
+    - boys-soccer-varsity
+    - boys-soccer-junior-varsity
+    - boys-soccer-junior-varsity-1
+    - boys-soccer-junior-varsity-2
+    - boys-soccer-freshman-varsity
 boys-swim-and-dive:
   category: boys
-  season: winter
+  seasons: winter
   title: Boy's Swim & Dive
   name: Swim & Dive
   link: /high-school/sports/boys-swim-and-dive
@@ -85,91 +107,107 @@ boys-swim-and-dive:
     - boys-swim-and-dive-varsity
 boys-tennis:
   category: boys
-  season: spring
+  seasons: spring
   title: Boy's Tennis
   name: Tennis
   link: /high-school/sports/boys-tennis
   instagram: https://www.instagram.com/needhamtennis/
 boys-volleyball:
   category: boys
-  season: spring
+  seasons: spring
   title: Boy's Volleyball
   name: Volleyball
   link: /high-school/sports/boys-volleyball
   instagram: https://www.instagram.com/rocketsvolleyball/
 girls-basketball:
   category: girls
-  season: winter
+  seasons: winter
   title: Girl's Basketball
   name: Basketball
+  schedule: true
   link: /high-school/sports/girls-basketball
   instagram: https://www.instagram.com/ladyrocketsbball/
+  teams:
+    - girls-basketball-varsity
+    - girls-basketball-junior-varsity
+    - girls-basketball-freshman
 girls-cross-country:
   category: girls
-  season: fall
+  seasons: fall
   title: Girl's Cross Country
   name: Cross Country
   link: /high-school/sports/girls-cross-country
+  schedule: true
   instagram: https://www.instagram.com/needhamdistance/
+  teams:
+    - girls-cross-country-varsity
 girls-golf:
   category: girls
-  season: spring
+  seasons: spring
   title: Girl's Golf
   name: Golf
   link: /high-school/sports/girls-golf
   instagram: https://www.instagram.com/needhamgirlsgolf/
 girls-ice-hockey:
   category: girls
-  season: winter
+  seasons: winter
   title: Girl's Ice Hockey
   name: Ice Hockey
   link: /high-school/sports/girls-ice-hockey
+  schedule: true
   instagram: https://www.instagram.com/rocketsgpuck/
+  teams:
+    - girls-ice-hockey-varsity
+    - girls-ice-hockey-junior-varsity
 girls-indoor-track-and-field:
   category: girls
-  season: winter
+  seasons: winter
   title: Girl's Indoor Track & Field
   name: Indoor Track & Field
-  link: /high-school/sports/girls-indoor-track
+  link: /high-school/sports/girls-indoor-track-and-field
+  schedule: true
   instagram: https://www.instagram.com/needhamsprints/
+  teams:
+    - girls-indoor-track-and-field-varsity
+    - girls-indoor-track-and-field-junior-varsity
 girls-lacrosse:
   category: girls
-  season: spring
+  seasons: spring
   title: Girl's Lacrosse
   name: Lacrosse
   link: /high-school/sports/girls-lacrosse
   instagram: https://www.instagram.com/needhamglax/
 girls-outdoor-track-and-field:
   category: girls
-  season: spring
+  seasons: spring
   title: Girl's Outdoor Track & Field
   name: Outdoor Track & Field
   link: /high-school/sports/girls-outdoor-track
   instagram: https://www.instagram.com/needhamsprints/
 girls-rugby:
   category: girls
-  season: spring
+  seasons: spring
   title: Girl's Rugby
   name: Rugby
   link: /high-school/sports/girls-rugby
   instagram: https://www.instagram.com/needhamgirlsrugby/
 girls-softball:
   category: girls
-  season: spring
+  seasons: spring
   title: Girl's Softball
   name: Softball
   link: /high-school/sports/girls-softball
   instagram: https://www.instagram.com/needhamvarsitysoftball/
 girls-soccer:
   category: girls
-  season: fall
+  seasons: fall
   title: Girl's Soccer
   name: Soccer
   link: /high-school/sports/girls-soccer
   instagram: https://www.instagram.com/needhamgirlshighschoolsoccer/
 girls-swim-and-dive:
   category: girls
-  season: fall
+  seasons: fall
   title: Girl's Swim & Dive
   name: Swim & Dive
   link: /high-school/sports/girls-swim-and-dive
@@ -179,158 +217,159 @@ girls-swim-and-dive:
     - girls-swim-and-dive-varsity
 girls-tennis:
   category: girls
-  season: spring
+  seasons: spring
   title: Girl's Tennis
   name: Tennis
   link: /high-school/sports/girls-tennis
   instagram: https://www.instagram.com/needhamgirlstennis/
 girls-volleyball:
   category: girls
-  season: fall
+  seasons: fall
   title: Girl's Volleyball
   name: Volleyball
   link: /high-school/sports/girls-volleyball
   instagram: https://www.instagram.com/needhamgirlsvb/
-coed-alpine-skiing:
+coed-alpine-ski:
   category: coed
-  season: winter
-  title: Coed Alpine Skiing
-  name: Alpine Skiing
-  link: /high-school/sports/coed-alpine-skiing
-coed-cheerleading-fall:
+  seasons: winter
+  title: Coed Alpine Ski
+  name: Alpine Ski
+  link: /high-school/sports/coed-alpine-ski
+  schedule: true
+  teams:
+    - coed-alpine-ski-varsity
+coed-cheerleading:
   category: coed
-  season: fall
-  title: Coed Cheerleading (Fall)
-  name: Cheerleading (Fall)
-  link: /high-school/sports/coed-cheerleading-fall
+  seasons: fall,winter
+  title: Coed Cheerleading
+  name: Cheerleading
+  link: /high-school/sports/coed-cheerleading
+  schedule: true
   instagram: https://www.instagram.com/needham_cheer/
-coed-cheerleading-winter:
+  teams:
+    - coed-cheerleading-varsity
+coed-dance:
   category: coed
-  season: winter
-  title: Coed Cheerleading (Winter)
-  name: Cheerleading (Winter)
-  link: /high-school/sports/coed-cheerleading-winter
-  instagram: https://www.instagram.com/needham_cheer/
-coed-dance-fall:
-  category: coed
-  season: fall
-  title: Coed Dance (Fall)
-  name: Dance (Fall)
-  link: /high-school/sports/coed-dance-fall
+  seasons: fall,winter
+  title: Coed Dance
+  name: Dance
+  link: /high-school/sports/coed-dance
+  schedule: true
   instagram: https://www.instagram.com/needhamvarsitydanceteam/
-coed-dance-winter:
-  category: coed
-  season: winter
-  title: Coed Dance (Winter)
-  name: Dance (Winter)
-  link: /high-school/sports/coed-dance-winter
-  instagram: https://www.instagram.com/needhamvarsitydanceteam/
+  teams:
+    - coed-dance-varsity
+    - coed-dance-junior-varsity
 coed-field-hockey:
   category: coed
-  season: fall
+  seasons: fall
   title: Coed Field Hockey
   name: Field Hockey
   link: /high-school/sports/coed-field-hockey
   instagram: https://www.instagram.com/needhamgvfh/
+  teams:
+    - coed-field-hockey-varsity
+    - coed-field-hockey-junior-varsity
+    - coed-field-hockey-freshman
 coed-football:
   category: coed
-  season: fall
+  seasons: fall
   title: Coed Football
   name: Football
+  schedule: true
   link: /high-school/sports/coed-football
+  teams:
+    - coed-football-varsity
+    - coed-football-junior-varsity
+    - coed-football-freshman
 coed-gymnastics:
   category: coed
-  season: winter
+  seasons: winter
   title: Coed Gymnastics
   name: Gymnastics
   link: /high-school/sports/coed-gymnastics
+  schedule: true
   instagram: https://www.instagram.com/nhsgymnastics/
+  teams:
+    - coed-gymnastics-varsity
 coed-sailing:
   category: coed
-  season: spring
+  seasons: spring
   title: Coed Sailing
   name: Sailing
   link: /high-school/sports/coed-sailing
   instagram: https://www.instagram.com/needhamsailing/
 coed-unified-basketball:
   category: coed
-  season: fall
+  seasons: fall
   title: Coed Unified Basketball
   name: Unified Basketball
   link: /high-school/sports/coed-unified-basketball
 coed-unified-track-and-field:
   category: coed
-  season: spring
+  seasons: spring
   title: Coed Unified Track & Field & Field
   name: Unified Track & Field & Field
   link: /high-school/sports/coed-unified-track-and-field
 coed-wrestling:
   category: coed
-  season: winter
+  seasons: winter
   title: Coed Wrestling
   name: Wrestling
   link: /high-school/sports/coed-wrestling
+  schedule: true
   instagram: https://www.instagram.com/nhs_rockets_wrestling/
-club-cheerleading-fall:
+  teams:
+    - coed-wrestling-varsity
+club-cheerleading:
   category: club
-  season: fall
-  title: Club Cheerleading (Fall)
-  name: Cheerleading (Fall)
-  link: /high-school/sports/club-cheerleading-fall
-club-cheerleading-winter:
-  season: winter
+  seasons: fall,winter
+  title: Club Cheerleading
+  name: Cheerleading
+  link: /high-school/sports/club-cheerleading
+club-dance:
   category: club
-  title: Club Cheerleading (Winter)
-  name: Cheerleading (Winter)
-  link: /high-school/sports/club-cheerleading-winter
-club-dance-fall:
-  category: club
-  season: fall
-  title: Club Dance (Fall)
-  name: Dance (Fall)
-  link: /high-school/sports/club-dance-fall
-club-dance-winter:
-  category: club
-  season: winter
-  title: Club Dance (Winter)
-  name: Dance (Winter)
-  link: /high-school/sports/club-dance-winter
+  seasons: fall,winter
+  title: Club Dance
+  name: Dance
+  link: /high-school/sports/club-dance
 club-fencing:
   category: club
-  season: winter
+  seasons: winter
   title: Club Fencing
   name: Fencing
   link: /high-school/sports/club-fencing
 club-flag-football-girls:
   category: club
-  season: spring
+  seasons: spring
   title: Club Flag Football (Girls)
   name: Flag Football (Girls)
   link: /high-school/sports/club-flag-football-girls
 club-sailing:
   category: club
-  season: fall
+  seasons: fall
   title: Club Sailing
   name: Sailing
   link: /high-school/sports/club-sailing
   instagram: https://www.instagram.com/needhamsailing/
 club-squash:
   category: club
-  season: winter
+  seasons: winter
   title: Club Squash
   name: Squash
   link: /high-school/sports/club-squash
   instagram: https://www.instagram.com/needhamsquash/
+  teams:
+    - club-squash
 club-ultimate-frisbee-boys:
   category: club
-  season: spring
+  seasons: spring
   title: Club Ultimate Frisbee (Boys)
   name: Ultimate Frisbee (Boys)
   link: /high-school/sports/club-ultimate-frisbee-boys
   instagram: https://www.instagram.com/rockets.ultimate/
 club-ultimate-frisbee-girls:
   category: club
-  season: spring
+  seasons: spring
   title: Club Ultimate Frisbee (Girls)
   name: Ultimate Frisbee (Girls)
   link: /high-school/sports/club-ultimate-frisbee-girls

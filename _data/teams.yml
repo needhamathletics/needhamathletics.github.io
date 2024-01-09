@@ -1,15 +1,132 @@
-boys-basketball-freshman:
-  sport: boys-basketball
-  name: Boy's Freshman Basketball
-boys-basketball-junior-varsity:
-  sport: boys-basketball
-  name: Boy's Junior Varsity Basketball
 boys-basketball-varsity:
   sport: boys-basketball
   name: Boy's Varsity Basketball
+boys-basketball-junior-varsity:
+  sport: boys-basketball
+  name: Boy's Junior Varsity Basketball
+  short-name: Boy's JV Basketball
+boys-basketball-freshman:
+  sport: boys-basketball
+  name: Boy's Freshman Basketball
+boys-cross-country-varsity:
+  sport: boys-cross-country
+  name: Boy's Varsity Cross Country
+  short-name: Boy's Varsity XC
+boys-golf-varsity:
+  sport: boys-golf
+  name: Boy's Varsity Golf
+boys-ice-hockey-varsity:
+  sport: boys-ice-hockey
+  name: Boy's Varsity Ice Hockey
+boys-ice-hockey-junior-varsity:
+  sport: boys-ice-hockey
+  name: Boy's Junior Varsity Ice Hockey
+  short-name: Boy's JV Ice Hockey
+boys-ice-hockey-sophomores:
+  sport: boys-ice-hockey
+  name: Boy's Sophomores Ice Hockey
+  short-name: Boy's SO Ice Hockey
+boys-indoor-track-and-field-varsity:
+  sport: boys-indoor-track-and-field
+  name: Boy's Varsity Indoor Track and Field
+  short-name: Boy's Varsity Indoor T&F
+boys-indoor-track-and-field-junior-varsity:
+  sport: boys-indoor-track-and-field
+  name: Boy's Junior Varsity Indoor Track and Field
+  short-name: Boy's JV Indoor T&F
+boys-soccer-varsity:
+  sport: boys-soccer
+  name: Boy's Varsity Soccer
+boys-soccer-junior-varsity:
+  sport: boys-soccer
+  name: Boy's Junior Varsity Soccer
+  short-name: Boy's JV Soccer
+boys-soccer-junior-varsity-1:
+  sport: boys-soccer
+  name: Boy's Junior Varsity 1 Soccer
+  short-name: Boy's JV 1 Soccer
+boys-soccer-junior-varsity-2:
+  sport: boys-soccer
+  name: Boy's Junior Varsity 2 Soccer
+  short-name: Boy's JV 2 Soccer
+boys-soccer-freshman:
+  sport: boys-soccer
+  name: Boy's Freshman Soccer
+  short-name: Boy's Freshman Soccer
 boys-swim-and-dive-varsity:
   sport: boys-swim-and-dive
   name: Boy's Varsity Swim & Dive
+  short-name: Boy's Varsity S&D
+girls-basketball-varsity:
+  sport: girls-basketball
+  name: Girl's Varsity Basketball
+girls-basketball-junior-varsity:
+  sport: girls-basketball
+  name: Girl's Junior Varsity Basketball
+  short-name: Girl's JV Basketball
+girls-basketball-freshman:
+  sport: girls-basketball
+  name: Girl's Freshman Basketball
+girls-cross-country-varsity:
+  sport: girls-cross-country
+  name: Girl's Varsity Cross Country
+  short-name: Girl's Varsity XC
+girls-ice-hockey-varsity:
+  sport: girls-ice-hockey
+  name: Girl's Varsity Ice Hockey
+girls-ice-hockey-junior-varsity:
+  sport: girls-ice-hockey
+  name: Girl's Junior Varsity Ice Hockey
+  short-name: Girl's JV Ice Hockey
+girls-indoor-track-and-field-varsity:
+  sport: girls-indoor-track-and-field
+  name: Girl's Varsity Indoor Track and Field
+  short-name: Girl's Varsity Indoor T&F
+girls-indoor-track-and-field-junior-varsity:
+  sport: girls-indoor-track-and-field
+  name: Girl's Junior Varsity Indoor Track and Field
+  short-name: Girl's JV Indoor T&F
 girls-swim-and-dive-varsity:
   sport: girls-swim-and-dive
   name: Girl's Varsity Swim & Dive
+  short-name: Girl's Varsity S&D
+coed-alpine-ski-varsity:
+  sport: coed-alpine-ski
+  name: Coed Varsity Alpine Ski
+  short-name: Varsity Alpine Ski
+coed-cheerleading-varsity:
+  sport: coed-cheerleading
+  name: Coed Varsity Cheerleading
+  short-name: Varsity Cheerleading
+coed-dance-varsity:
+  sport: coed-dance
+  name: Coed Varsity Dance
+  short-name: Varsity Dance
+coed-dance-junior-varsity:
+  sport: coed-dance
+  name: Coed Junior Varsity Dance
+  short-name: JV Dance
+coed-football-varsity:
+  sport: coed-football
+  name: Coed Varsity Football
+  short-name: Varsity Football
+coed-football-junior-varsity:
+  sport: coed-football
+  name: Coed Junior Varsity Football
+  short-name: JV Football
+coed-football-freshman:
+  sport: coed-football
+  name: Coed Freshman Football
+  short-name: Freshman Football
+coed-gymnastics-varsity:
+  sport: coed-gymnastics
+  name: Coed Varsity Gymnastics
+  short-name: Varsity Gymnastics
+coed-wrestling-varsity:
+  sport: coed-wrestling
+  name: Coed Varsity Wrestling
+  short-name: Varsity Wrestling
+club-squash:
+  sport: club-squash
+  name: Club Squash
+  short-name: Squash

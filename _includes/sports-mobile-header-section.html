@@ -1,15 +1,18 @@
-{% for sport in boys-sports %}
+{% for sport in include.sports %}
   <a href="{{ sport.link }}">
     <li class="navigation-row">
       {{ sport.name }}
+      {% assign seasons = sport.seasons | split: "," %}
 
-      {% if sport.season == "fall" %}
-        <span class="icon fa-solid fa-leaf"></span>
-      {% elsif sport.season == "winter" %}
-        <span class="icon fa-regular fa-snowflake"></span>
-      {% elsif sport.season == "spring" %}
-        <span class="icon fa-regular fa-sun"></span>
-      {% endif %}
+      {% for season in seasons %}
+        {% if season == "fall" %}
+          <span class="icon fa-solid fa-leaf"></span>
+        {% elsif season == "winter" %}
+          <span class="icon fa-regular fa-snowflake"></span>
+        {% elsif season == "spring" %}
+          <span class="icon fa-regular fa-sun"></span>
+        {% endif %}
+      {% endfor %}
     </li>
   </a>
 {% endfor %}

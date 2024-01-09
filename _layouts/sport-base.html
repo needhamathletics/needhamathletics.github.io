@@ -8,49 +8,67 @@
     {%- include sport-header.html -%}
 
     <main class="page-content" aria-label="Content">
-      <div class="wrapper max-width">
-        <div id="schedule">
-          <h3>Schedule</h3>
-          <hr>
+      {% assign sport = site.data.sports[page.sport] %}
+      {% assign teams = site.data.teams %}
+      {% assign sport-teams = sport.teams %}
 
-          {% assign teams = site.data.teams %}
-          {% assign sport-teams = site.data.sports[page.sport].teams %}
-          {% assign schedule = site.data.schedules["2023-2024"] %}
-          {% assign events = "" | split: "," %}
-          {% for team in sport-teams %}
-            {% assign team-events = schedule | where: "team", team %}
-            {% assign events = events | concat: team-events %}
-          {% endfor %}
-          {% assign events = events | sort: "time" | sort: "date" %}
-          <table>
-            <thead>
-              <tr>
-                <th class="date">Date</th>
-                <th class="time">Time</th>
-                <th class="home-away">H/A</th>
-                <th class="opponents-event">Opponent(s) / Event</th>
-                <th class="site">Site</th>
-                <th class="subsite">Subsite</th>
-                <th class="result">Result</th>
-                <th class="score">Score</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for event in events %}
+      <div class="wrapper max-width">
+        {% if sport.schedule %}
+          <div id="schedule">
+            <h3>Schedule</h3>
+            <hr>
+
+            {% assign schedule = site.data.schedules["2023-2024"] %}
+            {% assign events = "" | split: "," %}
+            {% for team in sport-teams %}
+              {% assign team-events = schedule | where: "team", team %}
+              {% assign events = events | concat: team-events %}
+            {% endfor %}
+            {% assign events_by_date = events | group_by: "date" %}
+            {% assign events_by_date = events_by_date | sort: "name" %}
+            <table>
+              <thead>
                 <tr>
-                  <td class="date">{{ event.date }}</td>
-                  <td class="time">{{ event.time }}</td>
-                  <td class="home-away">{% if event.home-away == "H" %}Home{% elsif event.home-away == "A" %}Away{% endif %}</td>
-                  <td class="opponents-event">{{ event.event }}</td>
-                  <td class="site">{{ event.site }}</td>
-                  <td class="subsite">{{ event.subsite }}</td>
-                  <td class="result">{% if event.result == "W" %}Win{% elsif event.result == "L" %}Loss{% elsif event.result == "T" %}Tie{% else %}{{ event.result }}{% endif %}</td>
-                  <td class="score">{{ event.score | replace: "-", "&nbsp;&ndash;&nbsp;"}}</td>
+                  <th class="date">Date</th>
+                  <th class="time">Time</th>
+                  <th class="team">Team</th>
+                  <th class="type">Type</th>
+                  <th class="home-away">H/A</th>
+                  <th class="opponents-event">Opponent(s) / Event</th>
+                  <th class="site">Site</th>
+                  <th class="subsite">Subsite</th>
+                  <th class="result">Result</th>
+                  <th class="score">Score</th>
                 </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        </div>
+              </thead>
+              <tbody>
+                {% for events in events_by_date %}
+                  {% assign sorted_events = events.items | sort: "time" %}
+                  {% for event in sorted_events %}
+                    {% assign team = site.data.teams[event.team] %}
+                    {% if team.short-name %}
+                      {% assign team-name = team.short-name %}
+                    {% else %}
+                      {% assign team-name = team.name %}
+                    {% endif %}
+                    <tr {% if event.canceled == "TRUE" %}class="strikethrough"{% endif %}>
+                      <td class="date">{{ event.date }}</td>
+                      <td class="time">{{ event.time }}</td>
+                      <td class="team">{{ team-name }}</td>
+                      <td class="type">{{ event.type }}</td>
+                      <td class="home-away">{% if event.home-away == "H" %}Home{% elsif event.home-away == "A" %}Away{% endif %}</td>
+                      <td class="opponents-event">{{ event.event }}</td>
+                      <td class="site">{{ event.site }}</td>
+                      <td class="subsite">{{ event.subsite }}</td>
+                      <td class="result">{% if event.result == "W" %}Win{% elsif event.result == "L" %}Loss{% elsif event.result == "T" %}Tie{% else %}{{ event.result }}{% endif %}</td>
+                      <td class="score">{{ event.score | replace: "-", "&nbsp;&ndash;&nbsp;"}}</td>
+                    </tr>
+                  {% endfor %}
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        {% endif %}
 
         {{ content }}
       </div>

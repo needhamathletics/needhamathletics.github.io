@@ -10,7 +10,7 @@
     <tbody>
       {% for coach in site.data.staff.varsity-coaches %}
         {% assign sport = site.data.sports[coach.sport] %}
-        {% unless sport.season == include.season %}
+        {% unless sport.seasons contains include.season %}
           {% continue %}
         {% endunless %}
         <tr>

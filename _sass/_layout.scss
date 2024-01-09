@@ -139,6 +139,7 @@ header {
   text-align: right;
 
   ul {
+    -webkit-transform: translate3d(0,0,1);
     background-color: white;
     width: 100%;
     z-index: 2;
@@ -371,6 +372,7 @@ a .navigation-row:hover {
 .page-content {
   @include row-pad;
   background-color: white;
+  min-height: calc(100dvh - 110px);
   z-index: 1;
 }
 
@@ -383,4 +385,14 @@ p {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/**
+ * Footer
+ */
+footer {
+  align-items: center;
+  border-top: 5px solid navy;
+  display: flex;
+  min-height: 80px;
 }

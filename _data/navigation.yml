@@ -1,0 +1,16 @@
+- display: Inside Athletics
+  links:
+    - display: Sports
+      url: /high-school/sports
+    - display: Coaching Staff
+      url: /high-school/coaching-staff
+    - display: Rocket Review
+      url: /high-school/rocket-review
+    - display: Athletic Training
+      url: /high-school/training
+    - display: For Parents
+      url: /high-school/for-parents
+    - display: For Students
+      url: /high-school/for-students
+    - display: For Facilities
+      url: /high-school/facilities

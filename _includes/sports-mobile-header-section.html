@@ -1,0 +1,15 @@
+{% for sport in boys-sports %}
+  <a href="{{ sport.link }}">
+    <li class="navigation-row">
+      {{ sport.name }}
+
+      {% if sport.season == "fall" %}
+        <span class="icon fa-solid fa-leaf"></span>
+      {% elsif sport.season == "winter" %}
+        <span class="icon fa-regular fa-snowflake"></span>
+      {% elsif sport.season == "spring" %}
+        <span class="icon fa-regular fa-sun"></span>
+      {% endif %}
+    </li>
+  </a>
+{% endfor %}

@@ -15,7 +15,6 @@ html {
 /**
  * Site header
  */
-
 header {
   ul {
     margin: 0px;
@@ -29,75 +28,66 @@ header {
       text-decoration: underline;
     }
   }
+}
 
-  .header {
-    background-color: navy;
-    color: white;
-    font-size: 14px;
-    font-weight: 900;
-    height: 24px;
-    letter-spacing: 4px;
-    text-align: center;
-    text-transform: uppercase;
-  }
+.header {
+  background-color: navy;
+  color: white;
+  font-size: 14px;
+  font-weight: 900;
+  height: 24px;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
-  .navigation-bar {
-    display: flex;
-  }
+.navigation-bar {
+  display: flex;
+}
 
-  .main-navigation {
-    @include row-pad;
-    display: flex;
-    font-size: 20px;
-    font-weight: 600;
-    height: 80px;
-    position: relative;
-    white-space: nowrap;
-  }
+.main-navigation {
+  @include row-pad;
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  height: 80px;
+  white-space: nowrap;
+}
 
-  .navigation-logo {
-    height: 75px;
-    margin-bottom: auto;
-    margin-right: 24px;
-    margin-top: auto;
-    width: 75px;
-  }
+.navigation-logo {
+  height: 75px;
+  margin-bottom: auto;
+  margin-right: 24px;
+  margin-top: auto;
+  width: 75px;
+}
 
-  .navigation-main, .navigation-desktop {
-    height: 100%;
-  }
+.navigation-main, .navigation-desktop, .navigation-mobile {
+  flex-grow: 1;
+  height: 100%;
+}
 
-  .navigation-desktop {
-    display: none;
-  }
-
-  @include media-query($on-medium) {
-    .navigation-desktop {
-      display: contents;
-    }
-  }
+.navigation-desktop {
+  display: none;
 
   .navigation-level-1 {
     display: flex;
     height: 100%;
-
-    li {
-      list-style: none;
-    }
-
-    li:last-child > .navigation-url > a {
-      border-right: none;
-    }
   }
 
-  .navigation-url {
-    position: relative;
-    align-items: center;
-    display: flex;
-    height: 100%;
+  li {
+    list-style: none;
   }
 
-  .navigation-url::before {
+  li:last-child > .navigation-section > a {
+    border-right: none;
+  }
+
+  .navigation-item:hover .navigation-level-2 {
+    display: unset;
+  }
+
+  .navigation-section::before {
     content: "";
     background-color: navy;
     bottom: 0;
@@ -109,17 +99,13 @@ header {
     width: 100%;
   }
 
-  .navigation-url:hover::before {
+  .navigation-section:hover::before {
     transform: translateY(0);
   }
 
-  .navigation-url > a {
+  .navigation-section > a {
     @include row-pad;
     border-right: 1px solid #dddddd;
-  }
-
-  .navigation-item:hover .navigation-level-2 {
-    display: unset;
   }
 
   .navigation-level-2 {
@@ -131,7 +117,7 @@ header {
     overflow: auto;
     padding: 24px 0;
     position: absolute;
-    top: 100%;
+    // top: 164px;
     width: 100%;
     z-index: 2;
   }
@@ -144,110 +130,204 @@ header {
       margin: 0 12px;
     }
   }
+}
 
-  .navigation-separator {
-    color: navy;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 12px;
-    text-transform: uppercase;
+.navigation-mobile {
+  // color: white;
+  text-align: right;
 
-    &:not(:first-child) {
-      margin-top: 24px;
+  ul {
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .toggle {
+    cursor: pointer;
+
+    &[data-active="false"] {
+      .toggle-true {
+        display: none;
+      }
+    }
+
+    &[data-active="true"] {
+      .toggle-false {
+        display: none;
+      }
     }
   }
 
-  .navigation-row {
-    @include row-pad-small;
-    align-items: center;
-    border-bottom: 1px solid #dddddd;
+  .level-1-toggle {
+    color: black;
+    font-size: 25px;
+    line-height: 80px;
+  }
+
+  .navigation-level-1 {
+    background-color: white;
+    color: black;
+    display: none;
+    height: calc(100% - 104px);
+    left: 0;
+    position: absolute;
+    top: 104px;
+    width: 100%;
+  }
+
+  .navigation-level-1[data-active="true"] {
     display: flex;
-    font-size: 16px;
-    height: 36px;
+  }
+
+  .navigation-section {
+    border-bottom: 1px solid #dddddd;
+    padding: 22px 24px;
 
     a {
-      color: black;
-    }
-
-    .sport-link {
-      color: navy;
       margin-right: auto;
     }
 
     &:hover {
       background-color: navy;
-      border-color: white;
       color: white;
-
-      a {
-        color: white;
-      }
-
-      .sport-link {
-        color: white;
-        margin-right: auto;
-      }
-    }
-
-    .sport-social-media-links {
-      display: flex;
-    }
-
-    .icon {
-      margin: 0 6px;
     }
   }
 
-  a .navigation-row:hover {
-    text-decoration: underline;
-  }
-
-  /**
-   * Sport header
-   */
-  .sport-navigation {
-    @include row-pad;
-    display: flex;
-    background-color: navy;
-    color: white;
-    height: 60px;
-  }
-
-  .sport-title {
-    align-items: center;
-    display: flex;
-    font-size: 21px;
-    font-weight: 700;
-    margin-right: auto;
-    text-transform: uppercase;
-  }
-
-  .sport-links {
+  .navigation-level-2[data-active="false"] {
     display: none;
-    margin-right: 12px;
+  }
 
-    li {
-      align-items: center;
-      display: flex;
-      font-size: 16px;
-      font-weight: 600;
+  .navigation-separator {
+    background-color: #e6e6e6;
+    text-align: left;
+    margin: 0 !important;
+    padding: 22px 24px;
+  }
 
-      &:last-child a {
-        border-right: none;
-      }
-    }
+  .navigation-row {
+    padding: 2px 28px;
+  }
+}
+
+@include media-query($on-medium) {
+  .navigation-desktop {
+    display: contents;
+  }
+
+  .navigation-mobile {
+    display: none;
+  }
+}
+
+.navigation-section {
+  position: relative;
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+.navigation-separator {
+  color: navy;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+
+  &:not(:first-child) {
+    margin-top: 24px;
+  }
+}
+
+.navigation-row {
+  @include row-pad-small;
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
+  display: flex;
+  font-size: 16px;
+  height: 36px;
+
+  a {
+    color: black;
+  }
+
+  .sport-link {
+    color: navy;
+    margin-right: auto;
+  }
+
+  &:hover {
+    background-color: navy;
+    border-color: white;
+    color: white;
 
     a {
-      border-right: 1px solid;
-      margin-left: 6px;
-      padding-right: 6px;
+      color: white;
+    }
+
+    .sport-link {
+      color: white;
+      margin-right: auto;
     }
   }
 
-  @include media-query($on-medium) {
-    .sport-links {
-      display: flex;
+  .sport-social-media-links {
+    display: flex;
+  }
+
+  .icon {
+    margin: 0 6px;
+  }
+}
+
+a .navigation-row:hover {
+  text-decoration: underline;
+}
+
+/**
+  * Sport header
+  */
+.sport-navigation {
+  @include row-pad;
+  display: flex;
+  background-color: navy;
+  color: white;
+  height: 60px;
+}
+
+.sport-title {
+  align-items: center;
+  display: flex;
+  font-size: 21px;
+  font-weight: 700;
+  margin-right: auto;
+  text-transform: uppercase;
+}
+
+.sport-links {
+  display: none;
+  margin-right: 12px;
+
+  li {
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+
+    &:last-child a {
+      border-right: none;
     }
+  }
+
+  a {
+    border-right: 1px solid;
+    margin-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+@include media-query($on-medium) {
+  .sport-links {
+    display: flex;
   }
 }
 
@@ -289,12 +369,7 @@ header {
 .page-content {
   @include row-pad;
   background-color: white;
-  // margin-top: 164px;
   z-index: 1;
-
-  // .wrapper {
-  //   max-width: 800px;
-  // }
 }
 
 p {

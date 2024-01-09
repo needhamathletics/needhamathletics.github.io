@@ -9,71 +9,114 @@
       </a>
     </div>
     <div class="navigation-main">
+      {% assign sports = site.data.sports %}
+      {% assign boys-sports = sports | where: "category", "boys" %}
+      {% assign girls-sports = sports | where: "category", "girls" %}
+      {% assign coed-sports = sports | where: "category", "coed" %}
+      {% assign club-sports = sports | where: "category", "club" %}
+      {% assign navigation-sections = site.data.navigation %}
       <div class="navigation-desktop">
         <ul class="navigation-level-1">
           <li class="navigation-item">
-            <div class="navigation-url">
+            <div class="navigation-section">
               <a>Sports</a>
             </div>
             <div class="navigation-level-2">
               <div class="navigation-level-2-inner">
-                {% assign sports = site.data.sports %}
                 <ul class="navigation-column">
                   <li class="navigation-separator">Boy's Sports</li>
-                  {% assign boys-sports = sports | where: "category", "boys" %}
-                  {% include sports-header-section.html
+                  {% include sports-desktop-header-section.html
                     sports = boys-sports %}
                   <li class="navigation-separator">Coed Sports</li>
-                  {% assign coed-sports = sports | where: "category", "coed" %}
-                  {% include sports-header-section.html
+                  {% include sports-desktop-header-section.html
                     sports = coed-sports %}
                 </ul>
                 <ul class="navigation-column">
                   <li class="navigation-separator">Girls's Sports</li>
-                  {% assign girls-sports = sports | where: "category", "girls" %}
-                  {% include sports-header-section.html
+                  {% include sports-desktop-header-section.html
                     sports = girls-sports %}
                   <li class="navigation-separator">Club Sports</li>
-                  {% assign club-sports = sports | where: "category", "club" %}
-                  {% include sports-header-section.html
+                  {% include sports-desktop-header-section.html
                     sports = club-sports %}
                 </ul>
               </div>
             </div>
           </li>
-          <li class="navigation-item">
-            <div class="navigation-url">
-              <a>Inside Athletics</a>
-            </div>
-            <div class="navigation-level-2">
-              <div class="navigation-level-2-inner">
-                <ul class="navigation-column">
-                  <a href="/high-school/sports">
-                    <li class="navigation-row">Sports</li>
-                  </a>
-                  <a href="/high-school/coaching-staff">
-                    <li class="navigation-row">Coaching Staff</li>
-                  </a>
-                  <a href="/high-school/rocket-review">
-                    <li class="navigation-row">Rocket Review</li>
-                  </a>
-                  <a href="/high-school/athletic-training">
-                    <li class="navigation-row">Athletic Training</li>
-                  </a>
-                  <a href="/high-school/for-parents">
-                    <li class="navigation-row">For Parents</li>
-                  </a>
-                  <a href="/high-school/for-students">
-                    <li class="navigation-row">For Students</li>
-                  </a>
-                  <a href="/high-school/facilities">
-                    <li class="navigation-row">Facilities</li>
-                  </a>
+          {% for navigation-section in navigation-sections %}
+            <li class="navigation-item">
+              <div class="navigation-section">
+                <a>{{ navigation-section.display }}</a>
+              </div>
+              <div class="navigation-level-2">
+                <div class="navigation-level-2-inner">
+                  <ul class="navigation-column">
+                    {% for link in navigation-section.links %}
+                      <a href="{{ link.url }}">
+                        <li class="navigation-row">{{ link.display }}</li>
+                      </a>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="navigation-mobile">
+        <div class="level-1-toggle toggle" data-active="false" data-for="mobile-navigation-level-1">
+          <span class="fa-solid fa-bars toggle-false"></span>
+          <span class="fa-solid fa-xmark toggle-true"></span>
+        </div>
+
+        <div id="mobile-navigation-level-1" class="navigation-level-1" data-active="false">
+          <ul>
+            <li class="navigation-item">
+              <div class="navigation-section toggle" data-active="false" data-for="mobile-navigation-level-2-sports">
+                <a>Sports</a>
+                <div class="level-2-toggle">
+                  <span class="fa-solid fa-angle-down toggle-false"></span>
+                  <span class="fa-solid fa-angle-up toggle-true"></span>
+                </div>
+              </div>
+              <div id="mobile-navigation-level-2-sports" class="navigation-level-2" data-active="false">
+                <ul>
+                  <li class="navigation-separator">Boy's Sports</li>
+                  {% include sports-mobile-header-section.html
+                    sports=boys-sports %}
+                  <li class="navigation-separator">Girls's Sports</li>
+                  {% include sports-mobile-header-section.html
+                    sports=girls-sports %}
+                  <li class="navigation-separator">Coed Sports</li>
+                  {% include sports-mobile-header-section.html
+                    sports=coed-sports %}
+                  <li class="navigation-separator">Club Sports</li>
+                  {% include sports-mobile-header-section.html
+                    sports=club-sports %}
                 </ul>
               </div>
-            </div>
-          </li>
-        </ul>
+            </li>
+            {% for navigation-section in navigation-sections %}
+              <li class="navigation-item">
+                <div class="navigation-section toggle" data-active="false" data-for="mobile-navigation-level-2-{{ navigation-section.display }}">
+                  <a>{{ navigation-section.display }}</a>
+                  <div class="level-2-toggle">
+                    <span class="fa-solid fa-angle-down toggle-false"></span>
+                    <span class="fa-solid fa-angle-up toggle-true"></span>
+                  </div>
+                </div>
+                <div id="mobile-navigation-level-2-{{ navigation-section.display }}" class="navigation-level-2" data-active="false">
+                  <ul>
+                    {% for link in navigation-section.links %}
+                      <a href="{{ link.url }}">
+                        <li class="navigation-row">{{ link.display }}</li>
+                      </a>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>
   </div>

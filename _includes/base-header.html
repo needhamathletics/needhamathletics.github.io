@@ -63,22 +63,21 @@
         </ul>
       </div>
       <div class="navigation-mobile">
-        <div class="level-1-toggle toggle" data-active="false" data-for="mobile-navigation-level-1">
+        <div class="level-1-toggle toggle" data-active="false" data-for="mobile-navigation-toggle">
           <span class="fa-solid fa-bars toggle-false"></span>
           <span class="fa-solid fa-xmark toggle-true"></span>
         </div>
-
-        <div id="mobile-navigation-level-1" class="navigation-level-1" data-active="false">
+        <div class="navigation-level-1 mobile-navigation-toggle" data-active="false">
           <ul>
             <li class="navigation-item">
-              <div class="navigation-section toggle" data-active="false" data-for="mobile-navigation-level-2-sports">
+              <div class="navigation-section toggle" data-active="false" data-for="mobile-navigation-toggle-sports">
                 <a>Sports</a>
                 <div class="level-2-toggle">
                   <span class="fa-solid fa-angle-down toggle-false"></span>
                   <span class="fa-solid fa-angle-up toggle-true"></span>
                 </div>
               </div>
-              <div id="mobile-navigation-level-2-sports" class="navigation-level-2" data-active="false">
+              <div class="navigation-level-2 mobile-navigation-toggle-sports" data-active="false">
                 <ul>
                   <li class="navigation-separator">Boy's Sports</li>
                   {% include sports-mobile-header-section.html
@@ -97,14 +96,14 @@
             </li>
             {% for navigation-section in navigation-sections %}
               <li class="navigation-item">
-                <div class="navigation-section toggle" data-active="false" data-for="mobile-navigation-level-2-{{ navigation-section.display }}">
+                <div class="navigation-section toggle" data-active="false" data-for="mobile-navigation-toggle-{{ navigation-section.display }}">
                   <a>{{ navigation-section.display }}</a>
                   <div class="level-2-toggle">
                     <span class="fa-solid fa-angle-down toggle-false"></span>
                     <span class="fa-solid fa-angle-up toggle-true"></span>
                   </div>
                 </div>
-                <div id="mobile-navigation-level-2-{{ navigation-section.display }}" class="navigation-level-2" data-active="false">
+                <div class="navigation-level-2 mobile-navigation-toggle-{{ navigation-section.display }}" data-active="false">
                   <ul>
                     {% for link in navigation-section.links %}
                       <a href="{{ link.url }}">

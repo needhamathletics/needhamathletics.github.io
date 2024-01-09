@@ -2,12 +2,14 @@
   links:
     - display: Sports
       url: /high-school/sports
+    - display: Team Schedules
+      url: https://www.arbiterlive.com/Teams?entityId=15671
     - display: Coaching Staff
       url: /high-school/coaching-staff
     - display: Rocket Review
       url: /high-school/rocket-review
     - display: Athletic Training
-      url: /high-school/training
+      url: /high-school/athletic-training
     - display: For Parents
       url: /high-school/for-parents
     - display: For Students

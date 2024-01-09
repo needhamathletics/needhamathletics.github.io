@@ -3,6 +3,7 @@ boys-baseball:
   seasons: spring
   title: Boy's Baseball
   name: Baseball
+  name-levels: Baseball (V, JV, F)
   link: /high-school/sports/boys-baseball
   instagram: https://www.instagram.com/needhamvarsitybaseball/
 boys-basketball:
@@ -10,6 +11,7 @@ boys-basketball:
   seasons: winter
   title: Boy's Basketball
   name: Basketball
+  name-levels: Basketball (V, JV, F)
   link: /high-school/sports/boys-basketball
   schedule: true
   teams:
@@ -21,6 +23,7 @@ boys-cross-country:
   seasons: fall
   title: Boy's Cross Country
   name: Cross Country
+  name-levels: Cross Country (V, JV)
   link: /high-school/sports/boys-cross-country
   schedule: true
   instagram: https://www.instagram.com/needhamdistance/
@@ -31,6 +34,7 @@ boys-golf:
   seasons: fall
   title: Boy's Golf
   name: Golf
+  name-levels: Golf (V)
   link: /high-school/sports/boys-golf
   schedule: true
   instagram: https://www.instagram.com/needhamvarsitygolf/
@@ -41,6 +45,7 @@ boys-ice-hockey:
   seasons: winter
   title: Boy's Ice Hockey
   name: Ice Hockey
+  name-levels: Ice Hockey (V, JV, S)
   link: /high-school/sports/boys-ice-hockey
   schedule: true
   instagram: https://www.instagram.com/needham_boys_hockey/
@@ -53,6 +58,7 @@ boys-indoor-track-and-field:
   seasons: winter
   title: Boy's Indoor Track & Field
   name: Indoor Track & Field
+  name-levels: Indoor Track & Field (V, JV)
   link: /high-school/sports/boys-indoor-track-and-field
   schedule: true
   instagram: https://www.instagram.com/needhamsprints/
@@ -64,6 +70,7 @@ boys-lacrosse:
   seasons: spring
   title: Boy's Lacrosse
   name: Lacrosse
+  name-levels: Lacrosse (V, JV, F)
   link: /high-school/sports/boys-lacrosse
   instagram: https://www.instagram.com/needhamlax/
 boys-outdoor-track-and-field:
@@ -71,6 +78,7 @@ boys-outdoor-track-and-field:
   seasons: spring
   title: Boy's Outdoor Track & Field
   name: Outdoor Track & Field
+  name-levels: Outdoor Track & Field (V, JV)
   link: /high-school/sports/boys-outdoor-track-and-field
   instagram: https://www.instagram.com/needhamsprints/
 boys-rugby:
@@ -78,6 +86,7 @@ boys-rugby:
   seasons: spring
   title: Boy's Rugby
   name: Rugby
+  name-levels: Rugby (V)
   link: /high-school/sports/boys-rugby
   instagram: https://www.instagram.com/needhamhsrugby/
 boys-soccer:
@@ -85,6 +94,7 @@ boys-soccer:
   seasons: fall
   title: Boy's Soccer
   name: Soccer
+  name-levels: (V, JV1, JV2, F)
   link: /high-school/sports/boys-soccer
   schedule: true
   instagram: https://www.instagram.com/needhamhighschoolsoccer/
@@ -100,6 +110,7 @@ boys-swim-and-dive:
   seasons: winter
   title: Boy's Swim & Dive
   name: Swim & Dive
+  name-levels: Swim & Dive (V)
   link: /high-school/sports/boys-swim-and-dive
   schedule: true
   instagram: https://www.instagram.com/nhsboysswive/
@@ -110,6 +121,7 @@ boys-tennis:
   seasons: spring
   title: Boy's Tennis
   name: Tennis
+  name-levels: Tennis (V, JV)
   link: /high-school/sports/boys-tennis
   instagram: https://www.instagram.com/needhamtennis/
 boys-volleyball:
@@ -117,6 +129,7 @@ boys-volleyball:
   seasons: spring
   title: Boy's Volleyball
   name: Volleyball
+  name-levels: Volleyball (V, JV, F)
   link: /high-school/sports/boys-volleyball
   instagram: https://www.instagram.com/rocketsvolleyball/
 girls-basketball:
@@ -124,6 +137,7 @@ girls-basketball:
   seasons: winter
   title: Girl's Basketball
   name: Basketball
+  name-levels: Basketball (V, JV, F)
   schedule: true
   link: /high-school/sports/girls-basketball
   instagram: https://www.instagram.com/ladyrocketsbball/
@@ -136,6 +150,7 @@ girls-cross-country:
   seasons: fall
   title: Girl's Cross Country
   name: Cross Country
+  name-levels: Cross Country (V, JV)
   link: /high-school/sports/girls-cross-country
   schedule: true
   instagram: https://www.instagram.com/needhamdistance/
@@ -146,6 +161,7 @@ girls-golf:
   seasons: spring
   title: Girl's Golf
   name: Golf
+  name-levels: Golf (V)
   link: /high-school/sports/girls-golf
   instagram: https://www.instagram.com/needhamgirlsgolf/
 girls-ice-hockey:
@@ -153,6 +169,7 @@ girls-ice-hockey:
   seasons: winter
   title: Girl's Ice Hockey
   name: Ice Hockey
+  name-levels: Ice Hockey (V, JV, F)
   link: /high-school/sports/girls-ice-hockey
   schedule: true
   instagram: https://www.instagram.com/rocketsgpuck/
@@ -164,6 +181,7 @@ girls-indoor-track-and-field:
   seasons: winter
   title: Girl's Indoor Track & Field
   name: Indoor Track & Field
+  name-levels: Indoor Track & Field (V, JV)
   link: /high-school/sports/girls-indoor-track-and-field
   schedule: true
   instagram: https://www.instagram.com/needhamsprints/
@@ -175,6 +193,7 @@ girls-lacrosse:
   seasons: spring
   title: Girl's Lacrosse
   name: Lacrosse
+  name-levels: Lacrosse (V, JV, F)
   link: /high-school/sports/girls-lacrosse
   instagram: https://www.instagram.com/needhamglax/
 girls-outdoor-track-and-field:
@@ -182,6 +201,7 @@ girls-outdoor-track-and-field:
   seasons: spring
   title: Girl's Outdoor Track & Field
   name: Outdoor Track & Field
+  name-levels: Outdoor Track & Field (V, JV)
   link: /high-school/sports/girls-outdoor-track
   instagram: https://www.instagram.com/needhamsprints/
 girls-rugby:
@@ -189,6 +209,7 @@ girls-rugby:
   seasons: spring
   title: Girl's Rugby
   name: Rugby
+  name-levels: Rugby (V)
   link: /high-school/sports/girls-rugby
   instagram: https://www.instagram.com/needhamgirlsrugby/
 girls-softball:
@@ -196,6 +217,7 @@ girls-softball:
   seasons: spring
   title: Girl's Softball
   name: Softball
+  name-levels: Softball (V, JV)
   link: /high-school/sports/girls-softball
   instagram: https://www.instagram.com/needhamvarsitysoftball/
 girls-soccer:
@@ -203,6 +225,7 @@ girls-soccer:
   seasons: fall
   title: Girl's Soccer
   name: Soccer
+  name-levels: Soccer (V, JV1, JV2)
   link: /high-school/sports/girls-soccer
   instagram: https://www.instagram.com/needhamgirlshighschoolsoccer/
 girls-swim-and-dive:
@@ -210,6 +233,7 @@ girls-swim-and-dive:
   seasons: fall
   title: Girl's Swim & Dive
   name: Swim & Dive
+  name-levels: Swim & Dive (V)
   link: /high-school/sports/girls-swim-and-dive
   schedule: true
   instagram: https://www.instagram.com/needhamgirlsswive/
@@ -220,6 +244,7 @@ girls-tennis:
   seasons: spring
   title: Girl's Tennis
   name: Tennis
+  name-levels: Tennis (V, JV)
   link: /high-school/sports/girls-tennis
   instagram: https://www.instagram.com/needhamgirlstennis/
 girls-volleyball:
@@ -227,6 +252,7 @@ girls-volleyball:
   seasons: fall
   title: Girl's Volleyball
   name: Volleyball
+  name-levels: Volleyball (V, JV, F)
   link: /high-school/sports/girls-volleyball
   instagram: https://www.instagram.com/needhamgirlsvb/
 coed-alpine-ski:
@@ -234,6 +260,7 @@ coed-alpine-ski:
   seasons: winter
   title: Coed Alpine Ski
   name: Alpine Ski
+  name-levels: Alpine Ski (V, JV)
   link: /high-school/sports/coed-alpine-ski
   schedule: true
   teams:
@@ -243,6 +270,7 @@ coed-cheerleading:
   seasons: fall,winter
   title: Coed Cheerleading
   name: Cheerleading
+  name-levels: Cheerleading (V)
   link: /high-school/sports/coed-cheerleading
   schedule: true
   instagram: https://www.instagram.com/needham_cheer/
@@ -253,6 +281,7 @@ coed-dance:
   seasons: fall,winter
   title: Coed Dance
   name: Dance
+  name-levels: Dance (V)
   link: /high-school/sports/coed-dance
   schedule: true
   instagram: https://www.instagram.com/needhamvarsitydanceteam/
@@ -264,6 +293,7 @@ coed-field-hockey:
   seasons: fall
   title: Coed Field Hockey
   name: Field Hockey
+  name-levels: Field Hockey (V, JV, F)
   link: /high-school/sports/coed-field-hockey
   instagram: https://www.instagram.com/needhamgvfh/
   teams:
@@ -275,6 +305,7 @@ coed-football:
   seasons: fall
   title: Coed Football
   name: Football
+  name-levels: Football (V, JV, F)
   schedule: true
   link: /high-school/sports/coed-football
   teams:
@@ -286,6 +317,7 @@ coed-gymnastics:
   seasons: winter
   title: Coed Gymnastics
   name: Gymnastics
+  name-levels: Gymnastics (V)
   link: /high-school/sports/coed-gymnastics
   schedule: true
   instagram: https://www.instagram.com/nhsgymnastics/
@@ -315,6 +347,7 @@ coed-wrestling:
   seasons: winter
   title: Coed Wrestling
   name: Wrestling
+  name-levels: Wrestling (V, JV)
   link: /high-school/sports/coed-wrestling
   schedule: true
   instagram: https://www.instagram.com/nhs_rockets_wrestling/

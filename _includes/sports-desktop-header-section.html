@@ -1,6 +1,12 @@
 {% for sport in include.sports %}
   <li class="navigation-row">
-    <a class="sport-link" href="{{ sport.link }}">{{ sport.name }}</a>
+    <a class="sport-link" href="{{ sport.link }}">
+      {% if sport.name-levels %}
+        {{ sport.name-levels }}
+      {% else %}
+        {{ sport.name }}
+      {% endif %}
+    </a>
     {% assign seasons = sport.seasons | split: "," %}
     {% for season in seasons %}
       {% if season == "fall" %}
@@ -17,8 +23,8 @@
       </a>
     </div>
     <div class="sport-social-media-links">
-      <a class="icon fa-brands fa-instagram" href="{{ sport.instagram }}" target="_blank" {% unless sport.instagram %} style="visibility: hidden;" {% endunless %}></a>
-      <a class="icon fa-brands fa-twitter" href="{{ sport.twitter }}" target="_blank" {% unless sport.twitter %} style="visibility: hidden;" {% endunless %}></a>
+      <a class="icon fa-brands fa-instagram" href="{{ sport.instagram }}" {% unless sport.instagram %} style="visibility: hidden;" {% endunless %}></a>
+      <a class="icon fa-brands fa-twitter" href="{{ sport.twitter }}" {% unless sport.twitter %} style="visibility: hidden;" {% endunless %}></a>
     </div>
   </li>
 {% endfor %}

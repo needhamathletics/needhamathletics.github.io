@@ -12,3 +12,11 @@ for (const element of document.getElementsByClassName("toggle")) {
     }
   };
 }
+
+const links = document.links;
+for (const link of links) {
+  if (link.hostname != window.location.hostname) {
+    link.target = "_blank";
+    link.rel = "nofollow noopener noreferrer";
+  }
+}

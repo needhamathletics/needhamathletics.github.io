@@ -45,8 +45,12 @@ $background-color: white;
 .max-width {
   margin-left: auto;
   margin-right: auto;
-  max-width: $max-content-width;
+  max-width: $content-width;
   width: 100%;
+
+  &.wide {
+    max-width: $max-content-width;
+  }
 }
 
 // Import pre-styling-overrides hook and style-partials.

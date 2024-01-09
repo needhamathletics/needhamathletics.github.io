@@ -1,9 +1,12 @@
 {% for sport in include.sports %}
   <a href="{{ sport.link }}">
     <li class="navigation-row">
-      {{ sport.name }}
+      {% if sport.name-levels %}
+        {{ sport.name-levels }}
+      {% else %}
+        {{ sport.name }}
+      {% endif %}
       {% assign seasons = sport.seasons | split: "," %}
-
       {% for season in seasons %}
         {% if season == "fall" %}
           <span class="icon fa-solid fa-leaf"></span>

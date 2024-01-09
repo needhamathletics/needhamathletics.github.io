@@ -2,25 +2,25 @@
 layout: base
 ---
 
-<h1>Coaching Staff</h1>
+# Coaching Staff
 
-<h2>Athletics Department Staff</h2>
+## Athletics Department Staff
 
 {% include athletics-department-staff.html %}
 
-<h2>Varsity Coaches</h2>
+## Varsity Coaches
 
-<h3>Fall 2023</h3>
+### Fall 2023
 
 {% include varsity-coaches.html
   season="fall" %}
 
-<h3>Winter 2023 &ndash; 2024</h3>
+### Winter 2023 &ndash; 2024
 
 {% include varsity-coaches.html
   season="winter" %}
 
-<h3>Spring 2024</h3>
+### Spring 2024
 
 {% include varsity-coaches.html
   season="spring" %}

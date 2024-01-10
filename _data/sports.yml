@@ -14,6 +14,7 @@ boys-basketball:
   name-levels: Basketball (V, JV, F)
   link: /high-school/sports/boys-basketball
   schedule: true
+  twitter: https://twitter.com/NeedhamHoops1
   teams:
     - boys-basketball-varsity
     - boys-basketball-junior-varsity
@@ -49,6 +50,7 @@ boys-ice-hockey:
   link: /high-school/sports/boys-ice-hockey
   schedule: true
   instagram: https://www.instagram.com/needham_boys_hockey/
+  twitter: https://twitter.com/NeedhamHShockey
   teams:
     - boys-ice-hockey-varsity
     - boys-ice-hockey-junior-varsity
@@ -124,6 +126,7 @@ boys-tennis:
   name-levels: Tennis (V, JV)
   link: /high-school/sports/boys-tennis
   instagram: https://www.instagram.com/needhamtennis/
+  twitter: https://twitter.com/needhamtennis
 boys-volleyball:
   category: boys
   seasons: spring
@@ -173,6 +176,7 @@ girls-ice-hockey:
   link: /high-school/sports/girls-ice-hockey
   schedule: true
   instagram: https://www.instagram.com/rocketsgpuck/
+  twitter: https://twitter.com/NHS_GHockey
   teams:
     - girls-ice-hockey-varsity
     - girls-ice-hockey-junior-varsity
@@ -196,6 +200,7 @@ girls-lacrosse:
   name-levels: Lacrosse (V, JV, F)
   link: /high-school/sports/girls-lacrosse
   instagram: https://www.instagram.com/needhamglax/
+  twitter: https://twitter.com/NHS_GirlsLax
 girls-outdoor-track-and-field:
   category: girls
   seasons: spring
@@ -220,6 +225,7 @@ girls-softball:
   name-levels: Softball (V, JV)
   link: /high-school/sports/girls-softball
   instagram: https://www.instagram.com/needhamvarsitysoftball/
+  twitter: https://twitter.com/NeedhamSB
 girls-soccer:
   category: girls
   seasons: fall
@@ -228,6 +234,7 @@ girls-soccer:
   name-levels: Soccer (V, JV1, JV2)
   link: /high-school/sports/girls-soccer
   instagram: https://www.instagram.com/needhamgirlshighschoolsoccer/
+  twitter: https://twitter.com/GirlsSoccer_NHS
 girls-swim-and-dive:
   category: girls
   seasons: fall
@@ -237,6 +244,7 @@ girls-swim-and-dive:
   link: /high-school/sports/girls-swim-and-dive
   schedule: true
   instagram: https://www.instagram.com/needhamgirlsswive/
+  twitter: https://twitter.com/rocketsswimdive
   teams:
     - girls-swim-and-dive-varsity
 girls-tennis:
@@ -263,6 +271,7 @@ coed-alpine-ski:
   name-levels: Alpine Ski (V, JV)
   link: /high-school/sports/coed-alpine-ski
   schedule: true
+  twitter: https://twitter.com/nhs_ski
   teams:
     - coed-alpine-ski-varsity
 coed-cheerleading:
@@ -296,6 +305,7 @@ coed-field-hockey:
   name-levels: Field Hockey (V, JV, F)
   link: /high-school/sports/coed-field-hockey
   instagram: https://www.instagram.com/needhamgvfh/
+  twitter: https://twitter.com/NeedhamFH
   teams:
     - coed-field-hockey-varsity
     - coed-field-hockey-junior-varsity
@@ -308,6 +318,7 @@ coed-football:
   name-levels: Football (V, JV, F)
   schedule: true
   link: /high-school/sports/coed-football
+  twitter: https://twitter.com/NeedhamFootball
   teams:
     - coed-football-varsity
     - coed-football-junior-varsity
@@ -351,6 +362,7 @@ coed-wrestling:
   link: /high-school/sports/coed-wrestling
   schedule: true
   instagram: https://www.instagram.com/nhs_rockets_wrestling/
+  twitter: https://twitter.com/NeedhamWrestles
   teams:
     - coed-wrestling-varsity
 club-cheerleading:

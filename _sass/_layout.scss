@@ -371,11 +371,15 @@ a .navigation-row:hover {
 .page-content {
   @include row-pad;
   background-color: white;
-  min-height: calc(100dvh - 164px);
+  min-height: calc(100dvh - 110px);
   z-index: 1;
 
   &[data-active="false"] {
     display: none;
+  }
+
+  &.sport-content {
+    min-height: calc(100dvh - 164px);
   }
 }
 

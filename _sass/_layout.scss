@@ -371,7 +371,7 @@ a .navigation-row:hover {
 .page-content {
   @include row-pad;
   background-color: white;
-  min-height: calc(100dvh - 110px);
+  min-height: calc(100dvh - 164px);
   z-index: 1;
 
   &[data-active="false"] {
@@ -404,4 +404,5 @@ footer {
   border-top: 5px solid navy;
   display: flex;
   min-height: 80px;
+  text-align: center;
 }

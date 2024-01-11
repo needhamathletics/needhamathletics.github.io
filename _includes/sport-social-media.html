@@ -1,0 +1,8 @@
+<div class="social-media-accounts">
+  {% if include.sport.instagram %}
+    <div class="social-media-account">
+      {% include embedded-instagram.html
+        sport=include.sport %}
+    </div>
+  {% endif %}
+</div>

@@ -2,6 +2,8 @@
 layout: base
 ---
 
+{% include copied-disclaimer.html %}
+
 Frequently Used Home Sites for Needham High School Teams
 
 <br>
@@ -10,11 +12,11 @@ Frequently Used Home Sites for Needham High School Teams
 <table>
   <thead>
     <tr>
-      <th>Needham Rockets</td>
-      <th>Site</td>
-      <th>Fall</td>
-      <th>Winter</td>
-      <th>Spring</td>
+      <th>Needham Rockets</th>
+      <th>Site</th>
+      <th>Fall</th>
+      <th>Winter</th>
+      <th>Spring</th>
     </tr>
   </thead>
   <tbody>

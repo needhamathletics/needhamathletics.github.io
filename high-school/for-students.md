@@ -2,6 +2,8 @@
 layout: base
 ---
 
+{% include copied-disclaimer.html %}
+
 [NFHS Concussion Course](https://nfhslearn.com/courses/concussion-in-sports-2 "Concussion Course")
 
 [MIAA DEI Pledge](https://msaa.net/wp-content/uploads/2022/02/DEI-Pledge.pdf "DEI Pledge")

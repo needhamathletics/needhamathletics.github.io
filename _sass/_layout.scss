@@ -9,7 +9,7 @@
 }
 
 html {
-  overflow: scroll;
+  overflow: auto;
 }
 
 /**
@@ -337,8 +337,6 @@ a .navigation-row:hover {
  * Sport page
  */
 #schedule {
-  overflow-x: scroll;
-
   h3 {
     color: navy;
     font-size: 24px;
@@ -394,10 +392,44 @@ a .navigation-row:hover {
   margin-bottom: 20px;
 }
 
+.notice {
+  background-color: #f2f3f3;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(189,193,196,0.25);
+  color: #3d4144;
+  font-size: .9em;
+  margin: 2em 0;
+  padding: 1em;
+}
+
 p {
-  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.social-media-accounts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-media-account {
+  flex-grow: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+
+  iframe {
+    border: none;
+    width: 100%;
+  }
+}
+
+@include media-query($on-medium) {
+  .social-media-account {
+    max-width: 50%;
+    width: calc(50% - 40px);
+  }
 }
 
 /**

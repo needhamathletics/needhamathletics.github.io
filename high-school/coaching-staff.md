@@ -2,6 +2,8 @@
 layout: base
 ---
 
+{% include copied-disclaimer.html %}
+
 # Coaching Staff
 
 ## Athletics Department Staff

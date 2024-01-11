@@ -2,6 +2,8 @@
 layout: base
 ---
 
+{% include copied-disclaimer.html %}
+
 ## Important Dates 2023-24
 
 - __Fri, Aug 18 - Football Tryouts Begin__

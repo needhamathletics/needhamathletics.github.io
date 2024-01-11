@@ -1,0 +1,47 @@
+ #schedule {
+  h3 {
+    color: navy;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  hr {
+    border: 1px solid #dddddd;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
+
+.sport-content {
+  min-height: calc(100dvh - 164px);
+}
+
+.social-media-accounts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-media-account {
+  flex-grow: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+
+  iframe {
+    border: none;
+    width: 100%;
+  }
+}
+
+@include media-query($on-medium) {
+  .social-media-account {
+    max-width: 50%;
+    width: calc(50% - 40px);
+  }
+}

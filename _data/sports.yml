@@ -266,7 +266,7 @@ girls-volleyball:
 coed-alpine-ski:
   category: coed
   seasons: winter
-  title: Coed Alpine Ski
+  title: Alpine Ski
   name: Alpine Ski
   name-levels: Alpine Ski (V, JV)
   link: /high-school/sports/coed-alpine-ski
@@ -277,7 +277,7 @@ coed-alpine-ski:
 coed-cheerleading:
   category: coed
   seasons: fall,winter
-  title: Coed Cheerleading
+  title: Cheerleading
   name: Cheerleading
   name-levels: Cheerleading (V)
   link: /high-school/sports/coed-cheerleading
@@ -288,7 +288,7 @@ coed-cheerleading:
 coed-dance:
   category: coed
   seasons: fall,winter
-  title: Coed Dance
+  title: Dance
   name: Dance
   name-levels: Dance (V)
   link: /high-school/sports/coed-dance
@@ -300,7 +300,7 @@ coed-dance:
 coed-field-hockey:
   category: coed
   seasons: fall
-  title: Coed Field Hockey
+  title: Field Hockey
   name: Field Hockey
   name-levels: Field Hockey (V, JV, F)
   link: /high-school/sports/coed-field-hockey
@@ -313,7 +313,7 @@ coed-field-hockey:
 coed-football:
   category: coed
   seasons: fall
-  title: Coed Football
+  title: Football
   name: Football
   name-levels: Football (V, JV, F)
   schedule: true
@@ -326,7 +326,7 @@ coed-football:
 coed-gymnastics:
   category: coed
   seasons: winter
-  title: Coed Gymnastics
+  title: Gymnastics
   name: Gymnastics
   name-levels: Gymnastics (V)
   link: /high-school/sports/coed-gymnastics
@@ -337,26 +337,26 @@ coed-gymnastics:
 coed-sailing:
   category: coed
   seasons: spring
-  title: Coed Sailing
+  title: Sailing
   name: Sailing
   link: /high-school/sports/coed-sailing
   instagram: needhamsailing
 coed-unified-basketball:
   category: coed
   seasons: fall
-  title: Coed Unified Basketball
+  title: Unified Basketball
   name: Unified Basketball
   link: /high-school/sports/coed-unified-basketball
 coed-unified-track-and-field:
   category: coed
   seasons: spring
-  title: Coed Unified Track & Field & Field
+  title: Unified Track & Field & Field
   name: Unified Track & Field & Field
   link: /high-school/sports/coed-unified-track-and-field
 coed-wrestling:
   category: coed
   seasons: winter
-  title: Coed Wrestling
+  title: Wrestling
   name: Wrestling
   name-levels: Wrestling (V, JV)
   link: /high-school/sports/coed-wrestling

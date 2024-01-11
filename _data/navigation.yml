@@ -16,3 +16,9 @@
       url: /high-school/for-students
     - display: For Facilities
       url: /high-school/facilities
+- display: Hall of Fame
+  links:
+    - display: Championship Titles
+      url: /high-school/championship-titles
+    - display: School Records
+      url: /high-school/school-records

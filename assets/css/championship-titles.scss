@@ -1,0 +1,49 @@
+---
+---
+
+@import "mixins";
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  margin: 5px;
+}
+
+.titles, .years {
+  display: grid;
+  justify-content: space-between;
+}
+
+.titles {
+  background-color: #dddddd;
+  grid-gap: 1px;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+.sport {
+  background-color: white;
+}
+
+.years {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+@include media-query($on-small) {
+  .titles {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .years {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@include media-query($on-large) {
+  .titles {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

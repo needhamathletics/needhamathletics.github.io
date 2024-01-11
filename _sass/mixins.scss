@@ -1,0 +1,13 @@
+$on-small:         600px !default;
+$on-medium:        800px !default;
+$on-large:         1000px !default;
+
+@mixin media-query($device) {
+  @media screen and (min-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: #{$ratio}rem;
+}

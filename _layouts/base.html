@@ -9,9 +9,11 @@
 
     <hr class="pre-content">
     <main class="page-content mobile-navigation-toggle" data-active="true" aria-label="Content">
+      <div class="spacer-top"></div>
       <div class="wrapper max-width {% if page.wide %}wide{% endif %}">
         {{ content }}
       </div>
+      <div class="spacer-bottom"></div>
     </main>
 
     {%- include footer.html -%}

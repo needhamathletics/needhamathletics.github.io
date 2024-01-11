@@ -10,7 +10,10 @@
       sport=sport -%}
 
     <main class="page-content sport-content mobile-navigation-toggle" data-active="true" aria-label="Content">
+      <div class="spacer-top"></div>
       <div class="wrapper max-width wide">
+        {{ content }}
+
         {% if sport.schedule %}
           {% include sport-schedule.html
             sport=sport %}
@@ -20,9 +23,8 @@
           {% include sport-social-media.html
             sport=sport %}
         {% endif %}
-
-        {{ content }}
       </div>
+      <div class="spacer-bottom"></div>
     </main>
 
     {%- include footer.html -%}

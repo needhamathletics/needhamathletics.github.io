@@ -1,7 +1,6 @@
 <div id="schedule" class="overflow-x-auto">
   <h3>Schedule</h3>
   <hr>
-
   {% assign schedule = site.data.schedules["2023-2024"] %}
   {% assign events = "" | split: "," %}
   {% for team in include.sport.teams %}
@@ -35,12 +34,23 @@
           {% else %}
             {% assign team-name = team.name %}
           {% endif %}
-          <tr {% if event.canceled == "TRUE" %}class="strikethrough"{% endif %}>
+          {% assign classes="" %}
+          {% if event.canceled == "TRUE" %}
+            {% assign classes = classes | append: " strikethrough" %}
+          {% endif %}
+          {% if event.home-away == "H" %}
+            {% assign classes = classes | append: " home" %}
+            {% assign home-away = "Home" %}
+          {% elsif event.home-away == "A" %}
+            {% assign classes = classes | append: " away" %}
+            {% assign home-away = "Away" %}
+          {% endif %}
+          <tr class="{{ classes }}">
             <td class="date">{{ event.date }}</td>
             <td class="time">{{ event.time }}</td>
             <td class="team">{{ team-name }}</td>
             <td class="type">{{ event.type }}</td>
-            <td class="home-away">{% if event.home-away == "H" %}Home{% elsif event.home-away == "A" %}Away{% endif %}</td>
+            <td class="home-away">{{ home-away }}</td>
             <td class="opponents-event">{{ event.event }}</td>
             <td class="site">{{ event.site }}</td>
             <td class="subsite">{{ event.subsite }}</td>

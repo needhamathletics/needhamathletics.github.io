@@ -2,6 +2,8 @@
 layout: base
 ---
 
+{% include copied-disclaimer.html %}
+
 # Needham High School Athletics
 {: .center-text}
 

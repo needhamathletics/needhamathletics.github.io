@@ -12,11 +12,11 @@ Frequently Used Home Sites for Needham High School Teams
 <table>
   <thead>
     <tr>
-      <th>Needham Rockets</th>
-      <th>Site</th>
-      <th>Fall</th>
-      <th>Winter</th>
-      <th>Spring</th>
+      <th scope="col">Needham Rockets</th>
+      <th scope="col">Site</th>
+      <th scope="col">Fall</th>
+      <th scope="col">Winter</th>
+      <th scope="col">Spring</th>
     </tr>
   </thead>
   <tbody>

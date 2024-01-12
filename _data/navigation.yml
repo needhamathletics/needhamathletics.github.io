@@ -22,3 +22,11 @@
       url: /high-school/championship-titles
     - display: School Records
       url: /high-school/school-records
+- display: Conference
+  links:
+    - display: About the Bay State Conference
+      url: /high-school/bay-state-conference
+    - display: Sport Records by Year
+      url: /high-school/bay-state-conference/sport-records/by-year
+    - display: Sport Records by Sport
+      url: /high-school/bay-state-conference/sport-records/by-sport

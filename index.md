@@ -27,4 +27,5 @@ Select sports such as Alpine Skiing, Squash, Ultimate Frisbee, and Rugby compete
 
 ## Upcoming Events
 
-<iframe src="https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vTIREKlqY3rp9Lg27yrJVye_N1j8H0TrLpaUwUMFahi3qDJVrv3UKp0NljrYcKun85ONF_-hPSFdpgw/pubhtml?gid=37633151&single=true&pli=1" style="width: 100%; height: 700px;"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vTIREKlqY3rp9Lg27yrJVye_N1j8H0TrLpaUwUMFahi3qDJVrv3UKp0NljrYcKun85ONF_-hPSFdpgw/pubhtml?gid=37633151&single=true&pli=1"></iframe>
+{: height="700px"}

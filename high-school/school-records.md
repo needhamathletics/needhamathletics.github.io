@@ -9,9 +9,9 @@ wide: true
 ## Swim and Dive
 {: .center-text}
 
-{% assign events = site.data.records.swim-and-dive-events %}
-{% assign girls-records = site.data.records.girls-swim-and-dive %}
-{% assign boys-records = site.data.records.boys-swim-and-dive %}
+{% assign events = site.data.school-records.swim-and-dive.events %}
+{% assign girls-records = site.data.school-records.swim-and-dive.girls %}
+{% assign boys-records = site.data.school-records.swim-and-dive.boys %}
 <div class="overflow-x-auto">
   <table class="no-head">
     <tbody>

@@ -92,39 +92,39 @@ girls-swim-and-dive-varsity:
   short-name: Girl's Varsity S&D
 coed-alpine-ski-varsity:
   sport: coed-alpine-ski
-  name: Coed Varsity Alpine Ski
+  name: Varsity Alpine Ski
   short-name: Varsity Alpine Ski
 coed-cheerleading-varsity:
   sport: coed-cheerleading
-  name: Coed Varsity Cheerleading
+  name: Varsity Cheerleading
   short-name: Varsity Cheerleading
 coed-dance-varsity:
   sport: coed-dance
-  name: Coed Varsity Dance
+  name: Varsity Dance
   short-name: Varsity Dance
 coed-dance-junior-varsity:
   sport: coed-dance
-  name: Coed Junior Varsity Dance
+  name: Junior Varsity Dance
   short-name: JV Dance
 coed-football-varsity:
   sport: coed-football
-  name: Coed Varsity Football
+  name: Varsity Football
   short-name: Varsity Football
 coed-football-junior-varsity:
   sport: coed-football
-  name: Coed Junior Varsity Football
+  name: Junior Varsity Football
   short-name: JV Football
 coed-football-freshman:
   sport: coed-football
-  name: Coed Freshman Football
+  name: Freshman Football
   short-name: Freshman Football
 coed-gymnastics-varsity:
   sport: coed-gymnastics
-  name: Coed Varsity Gymnastics
+  name: Varsity Gymnastics
   short-name: Varsity Gymnastics
 coed-wrestling-varsity:
   sport: coed-wrestling
-  name: Coed Varsity Wrestling
+  name: Varsity Wrestling
   short-name: Varsity Wrestling
 club-squash:
   sport: club-squash

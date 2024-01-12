@@ -107,17 +107,17 @@ boys-soccer:
     - boys-soccer-junior-varsity-1
     - boys-soccer-junior-varsity-2
     - boys-soccer-freshman-varsity
-boys-swim-and-dive:
+boys-swimming-and-diving:
   category: boys
   seasons: winter
-  title: Boy's Swim & Dive
-  name: Swim & Dive
-  name-levels: Swim & Dive (V)
-  link: /high-school/sports/boys-swim-and-dive
+  title: Boy's Swimming & Diving
+  name: Swimming & Diving
+  name-levels: Swimming & Diving (V)
+  link: /high-school/sports/boys-swimming-and-diving
   schedule: true
   instagram: nhsboysswive
   teams:
-    - boys-swim-and-dive-varsity
+    - boys-swimming-and-diving-varsity
 boys-tennis:
   category: boys
   seasons: spring
@@ -235,18 +235,18 @@ girls-soccer:
   link: /high-school/sports/girls-soccer
   instagram: needhamgirlshighschoolsoccer
   twitter: GirlsSoccer_NHS
-girls-swim-and-dive:
+girls-swimming-and-diving:
   category: girls
   seasons: fall
-  title: Girl's Swim & Dive
-  name: Swim & Dive
-  name-levels: Swim & Dive (V)
-  link: /high-school/sports/girls-swim-and-dive
+  title: Girl's Swimming & Diving
+  name: Swimming & Diving
+  name-levels: Swimming & Diving (V)
+  link: /high-school/sports/girls-swimming-and-diving
   schedule: true
   instagram: needhamgirlsswive
   twitter: rocketsswimdive
   teams:
-    - girls-swim-and-dive-varsity
+    - girls-swimming-and-diving-varsity
 girls-tennis:
   category: girls
   seasons: spring
@@ -263,17 +263,17 @@ girls-volleyball:
   name-levels: Volleyball (V, JV, F)
   link: /high-school/sports/girls-volleyball
   instagram: needhamgirlsvb
-coed-alpine-ski:
+coed-alpine-skiing:
   category: coed
   seasons: winter
-  title: Alpine Ski
-  name: Alpine Ski
-  name-levels: Alpine Ski (V, JV)
-  link: /high-school/sports/coed-alpine-ski
+  title: Alpine Skiing
+  name: Alpine Skiing
+  name-levels: Alpine Skiing (V, JV)
+  link: /high-school/sports/coed-alpine-skiing
   schedule: true
   twitter: nhs_ski
   teams:
-    - coed-alpine-ski-varsity
+    - coed-alpine-skiing-varsity
 coed-cheerleading:
   category: coed
   seasons: fall,winter

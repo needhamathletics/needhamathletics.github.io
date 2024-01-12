@@ -1,4 +1,4 @@
 ---
 layout: sport-base
-sport: coed-alpine-ski
+sport: coed-alpine-skiing
 ---

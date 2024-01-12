@@ -53,9 +53,9 @@ boys-soccer-freshman:
   sport: boys-soccer
   name: Boy's Freshman Soccer
   short-name: Boy's Freshman Soccer
-boys-swim-and-dive-varsity:
-  sport: boys-swim-and-dive
-  name: Boy's Varsity Swim & Dive
+boys-swimming-and-diving-varsity:
+  sport: boys-swimming-and-diving
+  name: Boy's Varsity Swimming & Diving
   short-name: Boy's Varsity S&D
 girls-basketball-varsity:
   sport: girls-basketball
@@ -86,9 +86,9 @@ girls-indoor-track-and-field-junior-varsity:
   sport: girls-indoor-track-and-field
   name: Girl's Junior Varsity Indoor Track and Field
   short-name: Girl's JV Indoor T&F
-girls-swim-and-dive-varsity:
-  sport: girls-swim-and-dive
-  name: Girl's Varsity Swim & Dive
+girls-swimming-and-diving-varsity:
+  sport: girls-swimming-and-diving
+  name: Girl's Varsity Swimming & Diving
   short-name: Girl's Varsity S&D
 coed-alpine-ski-varsity:
   sport: coed-alpine-ski

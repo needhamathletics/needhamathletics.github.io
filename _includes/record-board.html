@@ -1,0 +1,19 @@
+<div class="overflow-x-auto">
+  <table class="no-head">
+    <tbody>
+      {% for event in include.events %}
+        {% assign girls-record = include.girls-records | where: "event", event | first %}
+        {% assign boys-record = include.boys-records | where: "event", event | first %}
+        <tr>
+          <td title="{{ girls-record.note }}">{{ girls-record.name | replace: ";", ",<br>" }}</td>
+          <td>{{ girls-record.result }}</td>
+          <td>{{ girls-record.date }}</td>
+          <td style="text-align:center;"><strong>{{ event }}</strong></td>
+          <td title="{{ boys-record.note }}">{{ boys-record.name | replace: ";", ",<br>" }}</td>
+          <td>{{ boys-record.result }}</td>
+          <td>{{ boys-record.date }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

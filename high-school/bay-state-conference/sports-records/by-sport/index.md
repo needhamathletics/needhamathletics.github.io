@@ -1,5 +1,6 @@
 ---
 layout: base
+wide: false
 ---
 
 # Sport Records by Sport

@@ -1,0 +1,60 @@
+season,sport,sex,division,school
+fall,Brookline,F,Carey,Brookline
+fall,Cheerleading,F,,Framingham
+fall,Cross Country,M,Carey,Newton North
+fall,Cross Country,M,Herget,Wellesley
+fall,Cross Country,F,Carey,Needham
+fall,Cross Country,F,Herget,Milton
+fall,Field Hockey,F,Carey,Needham
+fall,Field Hockey,F,Herget,Walpole
+fall,Football,M,Carey,Braintree
+fall,Football,M,Carey,Needham
+fall,Football,M,Carey,Newton North
+fall,Football,M,Herget,Natick
+fall,Golf,M,Carey,Braintree
+fall,Golf,M,Herget,Wellesley
+fall,Soccer,M,Carey,Needham
+fall,Soccer,M,Herget,Wellesley
+fall,Soccer,F,Herget,Natick
+fall,Swimming & Diving,F,Carey,Newton North
+fall,Swimming & Diving,F,Herget,Wellesley
+fall,Volleyball,F,Carey,Newton North
+fall,Volleyball,F,Herget,Walpole
+winter,Basketball,M,Carey,Needham
+winter,Basketball,M,Herget,Natick
+winter,Basketball,F,Carey,Braintree
+winter,Basketball,F,Herget,Natick
+winter,Cheerleading,F,Herget,Natick
+winter,Dance,F,,Braintree
+winter,Gymnastics,F,Carey,Newton North
+winter,Gymnastics,F,Herget,Norwood
+winter,Gymnastics,F,Herget,Wellesley
+winter,Ice Hockey,M,Carey,Framingham
+winter,Ice Hockey,M,Herget,Wellesley
+winter,Ice Hockey,F,Carey,Needham
+winter,Ice Hockey,F,Herget,Wellesley
+winter,Indoor Track & Field,M,Carey,Newton North
+winter,Indoor Track & Field,M,Herget,Natick
+winter,Indoor Track & Field,F,Carey,Newton North
+winter,Indoor Track & Field,F,Herget,Wellesley
+winter,Swimming & Diving,M,,Natick
+winter,Wrestling,M,Carey,Framingham
+winter,Wrestling,M,Herget,Walpole
+spring,Baseball,M,Carey,Brookline
+spring,Baseball,M,Herget,Walpole
+spring,Lacrosse,M,Carey,Needham
+spring,Lacrosse,M,Herget,Walpole
+spring,Lacrosse,F,Carey,Needham
+spring,Lacrosse,F,Herget,Walpole
+spring,Outdoor Track & Field,M,Carey,Newton North
+spring,Outdoor Track & Field,M,Herget,Natick
+spring,Outdoor Track & Field,F,Carey,Newton North
+spring,Outdoor Track & Field,F,Herget,Wellesley
+spring,Softball,F,Carey,Braintree
+spring,Softball,F,Carey,Newton North
+spring,Softball,F,Herget,Walpole
+spring,Tennis,M,Carey,Brookline
+spring,Tennis,M,Herget,Wellesley
+spring,Tennis,F,Carey,Brookline
+spring,Tennis,F,Herget,Wellesley
+spring,Volleyball,M,Carey,Needham

@@ -1,0 +1,264 @@
+season,sport,sex,division,school,wins,losses,ties
+fall,Football,M,Carey,Brookline,0,4,
+fall,Football,M,Carey,Framingham,3,1,
+fall,Football,M,Carey,Natick,3,1,
+fall,Football,M,Carey,Newton North,1,3,
+fall,Football,M,Carey,Wellesley,3,1,
+fall,Football,M,Herget,Braintree,2,2,
+fall,Football,M,Herget,Milton,3,1,
+fall,Football,M,Herget,Needham,2,2,
+fall,Football,M,Herget,Walpole,2,2,
+fall,Football,M,Herget,Weymouth,1,3,
+fall,Field Hockey,F,Carey,Brookline,0,13,
+fall,Field Hockey,F,Carey,Framingham,8,5,
+fall,Field Hockey,F,Carey,Natick,9,2,2
+fall,Field Hockey,F,Carey,Newton North,3,10,
+fall,Field Hockey,F,Carey,Wellesley,6,6,1
+fall,Field Hockey,F,Herget,Braintree,8,4,1
+fall,Field Hockey,F,Herget,Milton,2,10,1
+fall,Field Hockey,F,Herget,Needham,11,2,
+fall,Field Hockey,F,Herget,Walpole,13,0,
+fall,Field Hockey,F,Herget,Weymouth,2,10,1
+fall,Soccer,M,Carey,Brookline,7,3,3
+fall,Soccer,M,Carey,Framingham,2,8,3
+fall,Soccer,M,Carey,Natick,7,5,1
+fall,Soccer,M,Carey,Newton North,9,2,2
+fall,Soccer,M,Carey,Wellesley,8,3,2
+fall,Soccer,M,Herget,Braintree,1,11,1
+fall,Soccer,M,Herget,Milton,2,11,
+fall,Soccer,M,Herget,Needham,9,2,2
+fall,Soccer,M,Herget,Walpole,4,5,4
+fall,Soccer,M,Herget,Weymouth,4,3,6
+fall,Soccer,F,Carey,Brookline,9,1,3
+fall,Soccer,F,Carey,Framingham,3,6,4
+fall,Soccer,F,Carey,Natick,8,1,4
+fall,Soccer,F,Carey,Newton North,3,4,6
+fall,Soccer,F,Carey,Wellesley,3,4,6
+fall,Soccer,F,Herget,Braintree,4,6,3
+fall,Soccer,F,Herget,Milton,0,13,
+fall,Soccer,F,Herget,Needham,5,4,4
+fall,Soccer,F,Herget,Walpole,5,5,3
+fall,Soccer,F,Herget,Weymouth,8,4,1
+fall,Cross Country,M,Carey,Brookline,7,2,
+fall,Cross Country,M,Carey,Framingham,2,7,
+fall,Cross Country,M,Carey,Natick,5,4,
+fall,Cross Country,M,Carey,Newton North,3,6,
+fall,Cross Country,M,Carey,Wellesley,9,0,
+fall,Cross Country,M,Herget,Braintree,0,9,
+fall,Cross Country,M,Herget,Milton,4,5,
+fall,Cross Country,M,Herget,Needham,8,1,
+fall,Cross Country,M,Herget,Walpole,5,4,
+fall,Cross Country,M,Herget,Weymouth,2,7,
+fall,Cross Country,F,Carey,Brookline,4,5,
+fall,Cross Country,F,Carey,Framingham,1,8,
+fall,Cross Country,F,Carey,Natick,9,0,
+fall,Cross Country,F,Carey,Newton North,2,7,
+fall,Cross Country,F,Carey,Wellesley,6,3,
+fall,Cross Country,F,Herget,Braintree,1,8,
+fall,Cross Country,F,Herget,Milton,8,1,
+fall,Cross Country,F,Herget,Needham,6,3,
+fall,Cross Country,F,Herget,Walpole,5,4,
+fall,Cross Country,F,Herget,Weymouth,3,6,
+fall,Golf,M,Carey,Brookline,5,3,1
+fall,Golf,M,Carey,Framingham,3,5,1
+fall,Golf,M,Carey,Natick,3,5,1
+fall,Golf,M,Carey,Newton North,6,3,
+fall,Golf,M,Carey,Wellesley,8,0,1
+fall,Golf,M,Herget,Braintree,7,0,2
+fall,Golf,M,Herget,Milton,4,5,
+fall,Golf,M,Herget,Needham,5,4,
+fall,Golf,M,Herget,Walpole,2,7,
+fall,Golf,M,Herget,Weymouth,0,9,
+fall,Swimming & Diving,F,Carey,Brookline,4,5,
+fall,Swimming & Diving,F,Carey,Framingham,5,4,
+fall,Swimming & Diving,F,Carey,Natick,3,6,
+fall,Swimming & Diving,F,Carey,Newton North,6,3,
+fall,Swimming & Diving,F,Carey,Wellesley,9,0,
+fall,Swimming & Diving,F,Herget,Braintree,1,8,
+fall,Swimming & Diving,F,Herget,Milton,6,3,
+fall,Swimming & Diving,F,Herget,Needham,8,1,
+fall,Swimming & Diving,F,Herget,Walpole,3,6,
+fall,Swimming & Diving,F,Herget,Weymouth,0,9,
+fall,Volleyball,F,Carey,Brookline,9,4,
+fall,Volleyball,F,Carey,Framingham,0,13,
+fall,Volleyball,F,Carey,Natick,6,7,
+fall,Volleyball,F,Carey,Newton North,12,1,
+fall,Volleyball,F,Carey,Wellesley,7,6,
+fall,Volleyball,F,Herget,Braintree,2,11,
+fall,Volleyball,F,Herget,Milton,7,6,
+fall,Volleyball,F,Herget,Needham,10,3,
+fall,Volleyball,F,Herget,Walpole,10,3,
+fall,Volleyball,F,Herget,Weymouth,2,11,
+winter,Basketball,M,Carey,Brookline,13,0,
+winter,Basketball,M,Carey,Framingham,4,9,
+winter,Basketball,M,Carey,Natick,4,9,
+winter,Basketball,M,Carey,Newton North,10,3,
+winter,Basketball,M,Carey,Wellesley,9,4,
+winter,Basketball,M,Herget,Braintree,5,8,
+winter,Basketball,M,Herget,Milton,7,6,
+winter,Basketball,M,Herget,Needham,10,3,
+winter,Basketball,M,Herget,Walpole,1,12,
+winter,Basketball,M,Herget,Weymouth,2,11,
+winter,Basketball,F,Carey,Brookline,0,13,
+winter,Basketball,F,Carey,Framingham,4,9,
+winter,Basketball,F,Carey,Natick,10,3,
+winter,Basketball,F,Carey,Newton North,8,5,
+winter,Basketball,F,Carey,Wellesley,11,2,
+winter,Basketball,F,Herget,Braintree,11,2,
+winter,Basketball,F,Herget,Milton,4,9,
+winter,Basketball,F,Herget,Needham,10,3,
+winter,Basketball,F,Herget,Walpole,6,7,
+winter,Basketball,F,Herget,Weymouth,1,12,
+winter,Ice Hockey,M,Carey,Brookline,0,8,1
+winter,Ice Hockey,M,Carey,Framingham,11,0,1
+winter,Ice Hockey,M,Carey,Natick,7,5,
+winter,Ice Hockey,M,Carey,Newton North,1,11,
+winter,Ice Hockey,M,Carey,Wellesley,7,4,1
+winter,Ice Hockey,M,Herget,Braintree,9,3,1
+winter,Ice Hockey,M,Herget,Milton,2,8,3
+winter,Ice Hockey,M,Herget,Needham,9,3,1
+winter,Ice Hockey,M,Herget,Walpole,8,4,1
+winter,Ice Hockey,M,Herget,Weymouth,1,9,3
+winter,Ice Hockey,F,Carey,Brookline,2,9,2
+winter,Ice Hockey,F,Carey,Framingham,1,12,
+winter,Ice Hockey,F,Carey,Natick,7,5,1
+winter,Ice Hockey,F,Carey,Newton North,4,6,3
+winter,Ice Hockey,F,Carey,Wellesley,11,0,2
+winter,Ice Hockey,F,Herget,Braintree,12,1,
+winter,Ice Hockey,F,Herget,Milton,3,8,2
+winter,Ice Hockey,F,Herget,Needham,9,3,1
+winter,Ice Hockey,F,Herget,Walpole,9,3,1
+winter,Ice Hockey,F,Herget,Weymouth,0,11,2
+winter,Indoor Track & Field,M,Carey,Brookline,1,3,
+winter,Indoor Track & Field,M,Carey,Framingham,0,4,
+winter,Indoor Track & Field,M,Carey,Natick,2,2,
+winter,Indoor Track & Field,M,Carey,Newton North,4,0,
+winter,Indoor Track & Field,M,Carey,Wellesley,3,1,
+winter,Indoor Track & Field,M,Herget,Braintree,0,4,
+winter,Indoor Track & Field,M,Herget,Milton,1,3,
+winter,Indoor Track & Field,M,Herget,Needham,4,0,
+winter,Indoor Track & Field,M,Herget,Walpole,3,1,
+winter,Indoor Track & Field,M,Herget,Weymouth,2,2,
+winter,Indoor Track & Field,F,Carey,Brookline,1,3,
+winter,Indoor Track & Field,F,Carey,Framingham,0,4,
+winter,Indoor Track & Field,F,Carey,Natick,3,1,
+winter,Indoor Track & Field,F,Carey,Newton North,2,2,
+winter,Indoor Track & Field,F,Carey,Wellesley,4,0,
+winter,Indoor Track & Field,F,Herget,Braintree,2,2,
+winter,Indoor Track & Field,F,Herget,Milton,1,3,
+winter,Indoor Track & Field,F,Herget,Needham,4,0,
+winter,Indoor Track & Field,F,Herget,Walpole,3,1,
+winter,Indoor Track & Field,F,Herget,Weymouth,0,4,
+winter,Swimming & Diving,M,Carey,Brookline,0,5,
+winter,Swimming & Diving,M,Carey,Framingham,3,2,
+winter,Swimming & Diving,M,Carey,Natick,5,0,
+winter,Swimming & Diving,M,Carey,Newton North,1,4,
+winter,Swimming & Diving,M,Carey,Wellesley,2,3,
+winter,Swimming & Diving,M,Herget,Needham,4,1,
+winter,Gymnastics,F,Carey,Brookline,1,7,
+winter,Gymnastics,F,Carey,Framingham,6,2,
+winter,Gymnastics,F,Carey,Natick,6,2,
+winter,Gymnastics,F,Carey,Newton North,8,0,
+winter,Gymnastics,F,Carey,Wellesley,6,2,
+winter,Gymnastics,F,Herget,Braintree,0,8,
+winter,Gymnastics,F,Herget,Needham,4,4,
+winter,Gymnastics,F,Herget,Walpole,2,6,
+winter,Gymnastics,F,Herget,Weymouth,3,5,
+winter,Wrestling,M,Carey,Brookline,9,0,
+winter,Wrestling,M,Carey,Framingham,7,2,
+winter,Wrestling,M,Carey,Natick,5,4,
+winter,Wrestling,M,Carey,Newton North,2,7,
+winter,Wrestling,M,Carey,Wellesley,0,9,
+winter,Wrestling,M,Herget,Braintree,6,3,
+winter,Wrestling,M,Herget,Milton,3,5,1
+winter,Wrestling,M,Herget,Needham,3,6,
+winter,Wrestling,M,Herget,Walpole,2,6,1
+winter,Wrestling,M,Herget,Weymouth,7,2,
+spring,Baseball,M,Carey,Brookline,3,10,
+spring,Baseball,M,Carey,Framingham,2,11,
+spring,Baseball,M,Carey,Natick,8,5,
+spring,Baseball,M,Carey,Newton North,8,5,
+spring,Baseball,M,Carey,Wellesley,9,4,
+spring,Baseball,M,Herget,Braintree,9,4,
+spring,Baseball,M,Herget,Milton,6,7,
+spring,Baseball,M,Herget,Needham,7,6,
+spring,Baseball,M,Herget,Walpole,11,2,
+spring,Baseball,M,Herget,Weymouth,2,11,
+spring,Softball,F,Carey,Brookline,0,13,
+spring,Softball,F,Carey,Framingham,2,11,
+spring,Softball,F,Carey,Natick,9,4,
+spring,Softball,F,Carey,Newton North,11,2,
+spring,Softball,F,Carey,Wellesley,7,6,
+spring,Softball,F,Herget,Braintree,12,1,
+spring,Softball,F,Herget,Milton,7,6,
+spring,Softball,F,Herget,Needham,5,8,
+spring,Softball,F,Herget,Walpole,10,3,
+spring,Softball,F,Herget,Weymouth,2,11,
+spring,Lacrosse,M,Carey,Brookline,3,10,
+spring,Lacrosse,M,Carey,Framingham,2,11,
+spring,Lacrosse,M,Carey,Natick,10,3,
+spring,Lacrosse,M,Carey,Newton North,11,2,
+spring,Lacrosse,M,Carey,Wellesley,9,4,
+spring,Lacrosse,M,Herget,Braintree,7,6,
+spring,Lacrosse,M,Herget,Milton,0,13,
+spring,Lacrosse,M,Herget,Needham,13,0,
+spring,Lacrosse,M,Herget,Walpole,7,6,
+spring,Lacrosse,M,Herget,Weymouth,3,10,
+spring,Lacrosse,F,Carey,Brookline,1,12,
+spring,Lacrosse,F,Carey,Framingham,2,11,
+spring,Lacrosse,F,Carey,Natick,9,4,
+spring,Lacrosse,F,Carey,Newton North,6,7,
+spring,Lacrosse,F,Carey,Wellesley,12,1,
+spring,Lacrosse,F,Herget,Braintree,7,6,
+spring,Lacrosse,F,Herget,Milton,3,10,
+spring,Lacrosse,F,Herget,Needham,11,2,
+spring,Lacrosse,F,Herget,Walpole,12,1,
+spring,Lacrosse,F,Herget,Weymouth,2,11,
+spring,Tennis,M,Carey,Brookline,13,0,
+spring,Tennis,M,Carey,Framingham,0,13,
+spring,Tennis,M,Carey,Natick,5,8,
+spring,Tennis,M,Carey,Newton North,11,2,
+spring,Tennis,M,Carey,Wellesley,9,4,
+spring,Tennis,M,Herget,Braintree,1,12,
+spring,Tennis,M,Herget,Milton,5,8,
+spring,Tennis,M,Herget,Needham,10,3,
+spring,Tennis,M,Herget,Walpole,8,5,
+spring,Tennis,M,Herget,Weymouth,3,10,
+spring,Tennis,F,Carey,Brookline,8,5,
+spring,Tennis,F,Carey,Framingham,2,11,
+spring,Tennis,F,Carey,Natick,5,8,
+spring,Tennis,F,Carey,Newton North,11,2,
+spring,Tennis,F,Carey,Wellesley,13,0,
+spring,Tennis,F,Herget,Braintree,6,7,
+spring,Tennis,F,Herget,Milton,0,13,
+spring,Tennis,F,Herget,Needham,10,3,
+spring,Tennis,F,Herget,Walpole,2,11,
+spring,Tennis,F,Herget,Weymouth,8,5,
+spring,Outdoor Track & Field,M,Carey,Brookline,2,2,
+spring,Outdoor Track & Field,M,Carey,Framingham,0,3,1
+spring,Outdoor Track & Field,M,Carey,Natick,0,3,1
+spring,Outdoor Track & Field,M,Carey,Newton North,3,0,1
+spring,Outdoor Track & Field,M,Carey,Wellesley,3,0,1
+spring,Outdoor Track & Field,M,Herget,Braintree,0,4,
+spring,Outdoor Track & Field,M,Herget,Milton,1,3,
+spring,Outdoor Track & Field,M,Herget,Needham,2,1,1
+spring,Outdoor Track & Field,M,Herget,Walpole,4,0,
+spring,Outdoor Track & Field,M,Herget,Weymouth,2,1,1
+spring,Outdoor Track & Field,F,Carey,Brookline,2,2,
+spring,Outdoor Track & Field,F,Carey,Framingham,0,4,
+spring,Outdoor Track & Field,F,Carey,Natick,1,3,
+spring,Outdoor Track & Field,F,Carey,Newton North,3,1,
+spring,Outdoor Track & Field,F,Carey,Wellesley,4,0,
+spring,Outdoor Track & Field,F,Herget,Braintree,0,4,
+spring,Outdoor Track & Field,F,Herget,Milton,2,2,
+spring,Outdoor Track & Field,F,Herget,Needham,3,1,
+spring,Outdoor Track & Field,F,Herget,Walpole,4,0,
+spring,Outdoor Track & Field,F,Herget,Weymouth,1,3,
+spring,Volleyball,M,Carey,Brookline,9,5,
+spring,Volleyball,M,Carey,Framingham,3,11,
+spring,Volleyball,M,Carey,Natick,11,3,
+spring,Volleyball,M,Carey,Newton North,12,2,
+spring,Volleyball,M,Carey,Wellesley,5,9,
+spring,Volleyball,M,Herget,Braintree,2,12,
+spring,Volleyball,M,Herget,Needham,12,2,
+spring,Volleyball,M,Herget,Weymouth,2,12,

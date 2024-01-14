@@ -1,0 +1,57 @@
+---
+layout: base
+---
+<h1 class="center-text">Sports Records {{ page.school-year }}</h1>
+
+<div class="grid">
+
+{% assign sports-records = site.data.conference.sports-records[page.school-year] %}
+{% assign division-titles = site.data.conference.division-titles[page.school-year] %}
+{% assign sports = sports-records | map: "sport" | uniq | sort %}
+
+{% for sport in sports %}
+
+{% assign sport-records = sports-records | where: "sport", sport %}
+{% assign sexes = sport-records | map: "sex" | uniq %}
+
+{% for sex in sexes %}
+
+<div class="cell">
+
+{% assign sport-records-for-sex = sport-records | where: "sex", sex %}
+{% assign division-title-schools = division-titles | where: "sport", sport | where: "sex", sex | map: "school" %}
+
+<h2 class="center-text">{% if sex == "F" %}Girl's {% elsif sex =="M" %}Boy's {% endif %} {{ sport }}</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Division</th>
+      <th scope="col">School</th>
+      <th scope="col">Wins</th>
+      <th scope="col">Losses</th>
+      <th scope="col">Ties</th>
+      <th scope="col">Pts</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for school-record in sport-records-for-sex %}
+      <tr {% if division-title-schools contains school-record.school %}class="title"{% endif %}>
+        <td>{{ school-record.division }}</td>
+        <td>{{ school-record.school }}</td>
+        <td>{{ school-record.wins }}</td>
+        <td>{{ school-record.losses }}</td>
+        <td>{{ school-record.ties }}</td>
+        {% assign points = school-record.wins | times: 2 | plus: school-record.ties %}
+        <td>{{ points }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+</div>
+
+{% endfor %}
+{% endfor %}
+
+</div>

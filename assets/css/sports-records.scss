@@ -1,0 +1,28 @@
+---
+---
+
+@import "mixins";
+
+.grid {
+  background-color: #dddddd;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr;
+  grid-gap: 1px;
+  grid-template-columns: 1fr;
+}
+
+@include media-query($on-medium) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.cell {
+  background-color: white;
+  padding: 20px 5px;
+}
+
+.title {
+  background-color: lightblue;
+}

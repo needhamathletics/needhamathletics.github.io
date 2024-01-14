@@ -6,6 +6,7 @@ css:
 ---
 
 # Championship Titles
+{: .center-text}
 
 <div class="titles">
   {% for title-sport in site.data.titles %}
